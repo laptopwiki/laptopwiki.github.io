@@ -24,6 +24,27 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
 
+# Define Jekyll collections
+collections:
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "docs" collection
+    docs:
+      # Give the collection a name
+      name: Documentation
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
