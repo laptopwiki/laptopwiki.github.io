@@ -2,7 +2,7 @@
 layout: default
 title: Pro Plus Max
 parent: Pro Plus
-ancestor: Legion 5
+ancestor: Helios 300
 nav_order: 1
 ---
 
