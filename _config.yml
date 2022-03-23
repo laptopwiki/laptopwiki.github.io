@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Laptop Wiki
-description: A Wikipeid for Laptops
+description: A Wikipedia for Laptops
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pdmosses.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://laptopwiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
