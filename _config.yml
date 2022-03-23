@@ -30,6 +30,10 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
 
 just_the_docs:
   # Define which collections are used in just-the-docs
@@ -38,6 +42,15 @@ just_the_docs:
     docs:
       # Give the collection a name
       name: Documentation
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    tests:
+      # Give the collection a name
+      name: Testing
       # Exclude the collection from the navigation
       # Supports true or false (default)
       nav_exclude: false
