@@ -1,6 +1,7 @@
 
 .DS_Store
 *.lock
+_site
 _site/index.html
 _site/favicon.ico
 _site/docs/utilities/typography/index.html
