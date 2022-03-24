@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Laptop Model
-parent: Guides
+parent: Not-Guides
 nav_order: 2
 ---
 
