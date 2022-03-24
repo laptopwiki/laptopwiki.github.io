@@ -7,6 +7,7 @@
   `nav/main` first outputs the main navigation for pages not in any collection.
   It then outputs the main navigation for the pages in each collection (preceded
   by the name of the collection, unless all pages are in a single collection.)
+
 {%- endcomment -%}
 
 {%- assign pages_top_size = site.html_pages
@@ -28,12 +29,14 @@
     {%- assign collection_value = collection_entry[1] -%}
     {%- assign collection = site[collection_key] -%}
     {%- if collection_value.nav_exclude != true -%}
-      {%- if collections_size > 1 or pages_top_size > 0 -%}
-        <div class="nav-category">{{ collection_value.name }}</div>
+      {%- if collection_key == page.collection-%}
+        {%- if collections_size > 1 or pages_top_size > 0 -%}
+          <div class="nav-category">{{ collection_value.name }}</div>
+        {%- endif -%}
+        {%- include nav/collection.html
+              pages = collection
+              key = collection_key -%}
       {%- endif -%}
-      {%- include nav/collection.html
-            pages = collection
-            key = collection_key -%}
     {%- endif -%}
 
   {%- endfor -%}
