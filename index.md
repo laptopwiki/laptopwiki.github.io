@@ -16,16 +16,3 @@ permalink: /
     {% endfor %}
   </ul>
 {% endfor %}
-
-{% for issue in site.collections %}
-  <li>
-    <h6 class="post-meta">
-      Issue {{ issue[1].label }}
-      &mdash;
-      {{ issue[1].date | date: "%b %-d, %Y" }}
-    </h6>
-    <h2>
-      {{ issue[1].title }}
-    </h2>
-  </li>
-{% endfor %}
