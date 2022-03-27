@@ -10,6 +10,16 @@
 
 {%- endcomment -%}
 
+
+<div class="dropdown">
+  <div class="nav-category dropbtn">Basic Terminology</div>
+  <div class="dropdown-content">
+    <a class="droplink nav-category" href="#">Link 1</a>
+    <a class="droplink nav-category" href="#">Link 2</a>
+    <a class="droplink nav-category" href="#">Link 3</a>
+  </div>
+</div>
+
 {%- assign pages_top_size = site.html_pages
     | where_exp:"item", "item.title != nil"
     | where_exp:"item", "item.parent == nil"
@@ -31,7 +41,7 @@
     {%- if collection_value.nav_exclude != true -%}
       {%- if collection_key == page.collection-%}
         {%- if collections_size > 1 or pages_top_size > 0 -%}
-          <div class="nav-category">{{ collection_value.name }}</div>
+          <!-- <div class="nav-category">{{ collection_value.name }}</div> -->
         {%- endif -%}
         {%- include nav/collection.html
               pages = collection
