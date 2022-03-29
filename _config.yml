@@ -129,6 +129,15 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
 
+toggle_color_scheme: dark          # default: nil (no toggle button)
+# To display the toggle button only on one page:
+toggle_page_url: "/"               # default: nil (display on all pages)
+# To toggle automatically when the system mode preference changes:
+# toggle_auto_mode: true             # default: nil (manual toggle)
+# To set the button text for toggling and reverting:
+# toggle_text_1: "&rarr; &#x26ab;" # default: "&rarr; Dark Mode"
+# toggle_text_2: "&rarr; &#x26ab;" # default: "&rarr; Light Mode"
+
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
 ga_tracking: UA-2709176-10
@@ -152,45 +161,3 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
-callouts:
-  admonition:
-    # title:
-    color: grey-lt
-  attention:
-    title: Attention
-    color: purple
-  caution:
-    title: Caution
-    color: yellow
-  custom:
-    title: Custom
-    color: pink
-    opacity: 0.3
-  danger:
-    title: Danger
-    color: red
-  error:
-    title: Error
-    color: red
-  highlight:
-    color: yellow
-    opacity: 0.5
-  hint:
-    title: Hint
-    color: grey-dk
-  important:
-    title: Important
-    color: green
-  note:
-    title: Note
-    color: blue
-  tip:
-    title: Tip
-    color: grey-dk
-  warning:
-    title: Warning
-    color: red
-
-toggle_color_scheme: dark
-toggle_page_url: "/"
