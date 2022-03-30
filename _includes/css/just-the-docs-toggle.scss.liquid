@@ -9,6 +9,11 @@
   $logo: "{{ site.logo | absolute_url }}";
 {% endif %}
 
+:root {
+  --toggle-light: #d8dbe0;
+  --toggle-dark: #3f3d45;
+}
+
 html, html[data-theme="light"] {
   @import "./support/support";
   @import "./color_schemes/{{ include.color_scheme }}.scss";

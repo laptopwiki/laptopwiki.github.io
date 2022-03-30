@@ -1,3 +1,45 @@
+ .toggle-switch {
+  position: relative;
+  width: 2em;
+  height: 1em;
+}
+
+.toggle-label {
+  position: absolute;
+  width: 100%;
+  height: 1em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+#toggle-input {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: .50em;
+  transition: 0.3s;
+  background-color: var(--toggle-dark);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: .1em;
+  right: 1em;
+  width: .75em;
+  height: .75em;
+  border-radius: .60em;
+  box-shadow: inset -.28em -.04em 0px 0px var(--toggle-light);
+  background-color: var(--toggle-dark);
+  transform: translateX(1px);
+  transition: 0.3s;
+}
+
 
 $body-background-color: $grey-dk-300;
 $sidebar-color: $grey-dk-300;

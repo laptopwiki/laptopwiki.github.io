@@ -9,13 +9,13 @@
   {% if site.toggle_text_1 %}
     {% assign toggle_text_1 = site.toggle_text_1 %}
   {% else %}
-    {% assign toggle_text_1 = "&rarr; Dark Mode" %}
+    {% assign toggle_text_1 = "Enable Dark Mode" %}
   {% endif %}
 
   {% if site.toggle_text_2 %}
     {% assign toggle_text_2 = site.toggle_text_2 %}
   {% else %}
-    {% assign toggle_text_2 = "&rarr; Light Mode" %}
+    {% assign toggle_text_2 = "Enable Light Mode" %}
   {% endif %}
 
   const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	

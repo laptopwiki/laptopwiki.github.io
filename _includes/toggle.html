@@ -9,32 +9,47 @@
 
   {% if site.toggle_text_1 %}
     {% assign toggle_text_1 = site.toggle_text_1 %}
+    {% assign toggle_case_1 = "true" %}
   {% else %}
-    {% assign toggle_text_1 = "&rarr; Dark Mode" %}
+    {% assign toggle_text_1 = "Enable Dark Mode" %}
+    {% assign toggle_case_1 = "true" %}
   {% endif %}
 
   {% if site.toggle_text_2 %}
     {% assign toggle_text_2 = site.toggle_text_2 %}
+    {% assign toggle_case_2 = "false" %}
   {% else %}
-    {% assign toggle_text_2 = "&rarr; Light Mode" %}
+    {% assign toggle_text_2 = "Enable Light Mode" %}
+    {% assign toggle_case_2 = "false" %}
   {% endif %}
 
-  <button id="theme-toggle" onclick="modeSwitcher()" 
-    type="button" name="button" class="btn theme-toggle" {{ toggle_display }}></button>
+<div class="mode-container">
+  <div class="mode-flex">
+    <span id="theme-toggle"></span>
+    <div class = 'toggle-switch'>
+      <label class="toggle-label" onclick="modeSwitcher()">
+        <span id="toggle-input" type = 'checkbox'  ></span>
+        <span class = 'slider'></span>
+      </label>
+    </div>
+  </div>
+</div>
 
-  <script>
-    function modeSwitcher() {
-      let currentMode = document.documentElement.getAttribute('data-theme');
-      if (currentMode === "dark") {
-        document.documentElement.setAttribute('data-theme', 'light');
-        window.localStorage.setItem('theme', 'light');
-        document.getElementById("theme-toggle").innerHTML = "{{ toggle_text_1 }}";
-      } else {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        window.localStorage.setItem('theme', 'dark');
-        document.getElementById("theme-toggle").innerHTML = "{{ toggle_text_2 }}";
-      }
+<script>
+  function modeSwitcher() {
+    let currentMode = document.documentElement.getAttribute('data-theme');
+    if (currentMode === "dark") {
+      document.documentElement.setAttribute('data-theme', 'light');
+      window.localStorage.setItem('theme', 'light');
+      document.getElementById("theme-toggle").innerHTML = "{{ toggle_text_1 }}";
+      
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.localStorage.setItem('theme', 'dark');
+      document.getElementById("theme-toggle").innerHTML = "{{ toggle_text_2 }}";
+      
     }
-  </script>
+  }
+</script>
 
 {% endif %}
