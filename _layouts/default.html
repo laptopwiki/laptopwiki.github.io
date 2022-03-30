@@ -98,7 +98,7 @@ layout: table_wrappers
         {% endif %}
 
         {% unless page.has_toc == false %}
-          {% include nav/toc.html nodes=nav_page_children %}
+          {% include toc.html html=content %}
         {% endunless %}
 
         {% capture footer_custom %}
