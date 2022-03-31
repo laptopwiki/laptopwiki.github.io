@@ -80,21 +80,23 @@
 .dropbtn, .droplink {
   border: none;
   cursor: pointer;
-  font-size: 18px !important;
+  font-size: 14px !important;
   letter-spacing: .05em;
   border-bottom: $border $border-color;
+  display: block;
 }
 
 .dropbtn {
 	background: $link-color;
-	color: white;
+	color: $body-background-color;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  font-size:  18px !important;
+  font-size:  14px !important;
   padding-bottom:$gutter-spacing-sm;
+  user-select: none;
 
 }
 
@@ -118,7 +120,7 @@
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.drop-appear {
   display: block;
 }
 

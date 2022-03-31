@@ -10,9 +10,11 @@
 
 {%- endcomment -%}
 
+
+
 <div class="dropdown">
-  <div class="nav-category dropbtn">{{ include.value.name }}</div>
-  <div class="dropdown-content">
+  <a href="#" class="nav-category dropbtn" onClick="drop_menu()">{{ include.value.name }}</a>
+  <div id ="drop-menu" class="dropdown-content drop-appear">
   	{%- for collection_nav in include.collection -%}
   		{%- assign collections_key = collection_nav[0] -%}
   		{%- assign collections_value = collection_nav[1] -%}
@@ -25,3 +27,13 @@
 
   </div>
 </div>
+<script>
+    function drop_menu() {
+    let currentDrop = document.getElementById("drop-menu");
+    if (currentDrop.classList.contains("drop-appear")) {
+      currentDrop.classList.remove("drop-appear");
+    } else {
+      currentDrop.classList.add("drop-appear");
+    }
+  }
+</script>
