@@ -119,13 +119,15 @@ function searchLoaded(index, docs) {
   var mainHeader = document.getElementById('main-header');
   var currentInput;
   var currentSearchIndex = 0;
+  //added body query select to fix search in dark mode
+  var body = document.querySelector('body');
 
   function showSearch() {
-    document.documentElement.classList.add('search-active');
+    body.classList.add('search-active');
   }
 
   function hideSearch() {
-    document.documentElement.classList.remove('search-active');
+    body.classList.remove('search-active');
   }
 
   function update() {
