@@ -1,20 +1,25 @@
 {%- comment -%}
-  {%- include nav/main.html -%}
+    {%- include nav/dropdown.html
+        collection = array
+        key = collection_key
+        value = collection_value -%}
   outputs links for the main navigation. It also locates the current page in the
   navigation hierarchy, and assigns to the variables `nav_page_ancestors`,
   `nav_page_path`, and `nav_page_children`.
   
-  `nav/main` first outputs the main navigation for pages not in any collection.
-  It then outputs the main navigation for the pages in each collection (preceded
-  by the name of the collection, unless all pages are in a single collection.)
+  retrieves collection list and outputs a nav.
+  collection is the collection array of just the docs.
+  key is [0] defined scope of the array. active collection goes here.
+  value is [1] defined scope of the array.
 
 {%- endcomment -%}
 
 
 
 <div class="dropdown">
-  <a href="#" class="nav-category dropbtn" onClick="drop_menu()">{{ include.value.name }}</a>
-  <div id ="drop-menu" class="dropdown-content drop-appear">
+  <a href="#" id="arrow-down" class="collection-arrow collection-arrow-up" onClick="drop_menu()"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+  <a href="/{{ include.key }}" class="nav-category dropbtn">{{ include.value.name }}</a>
+  <div id ="drop-menu" class="dropdown-content display-none">
   	{%- for collection_nav in include.collection -%}
   		{%- assign collections_key = collection_nav[0] -%}
   		{%- assign collections_value = collection_nav[1] -%}
@@ -30,10 +35,16 @@
 <script>
     function drop_menu() {
     let currentDrop = document.getElementById("drop-menu");
-    if (currentDrop.classList.contains("drop-appear")) {
-      currentDrop.classList.remove("drop-appear");
+    let currentNav = document.getElementById("nav-container");
+    let currentArr = document.getElementById("arrow-down");
+    if (currentDrop.classList.contains("display-none")) {
+      currentDrop.classList.remove("display-none");
+      currentNav.classList.add("display-none");
+      currentArr.classList.remove("collection-arrow-up");
     } else {
-      currentDrop.classList.add("drop-appear");
+      currentDrop.classList.add("display-none");
+      currentNav.classList.remove("display-none");
+      currentArr.classList.add("collection-arrow-up");
     }
   }
 </script>

@@ -49,6 +49,14 @@ layout: table_wrappers
         <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
       </a>
     </div>
+    <div class="collection-nav">
+      {%- if page.collection != nil and page.collection != "posts" -%}
+        {%- include nav/dropdown.html
+          collection = jtd_collections
+          key = collection_key
+          value = collection_value -%}
+      {%- endif -%}
+    </div>
 
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
       {% include nav/main.html %}

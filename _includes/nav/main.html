@@ -10,18 +10,6 @@
 
 {%- endcomment -%}
 
-{%- if site.just_the_docs.collections and page.collection != nil  -%}
-  {%- assign jtd_collections = site.just_the_docs.collections -%}
-  {%- assign collection_key = page.collection-%}
-  {%- assign collection_value = jtd_collections.[collection_key]-%}
-{%- endif -%}
-
-{%- if page.collection != nil and page.collection != "posts" -%}
-  {%- include nav/dropdown.html
-        collection = jtd_collections
-        key = collection_key
-        value = collection_value -%}
-{%- endif -%}
 
 {%- assign pages_top_size = site.html_pages
     | where_exp:"item", "item.title != nil"
@@ -33,19 +21,27 @@
         pages = site.html_pages
         key = nil -%}
 {%- endif -%}
-
-{%- if jtd_collections -%}
+<div id="nav-container">
+    
+{%- if jtd_collections and page.collection != nil -%}
   {%- assign collections_size = jtd_collections | size -%}
  
     {%- assign collection = site[collection_key] -%}
     {%- if collection_value.nav_exclude != true -%}
         {%- if collections_size > 1 or pages_top_size > 0 -%}
-          <div class="nav-category">{{ collection_value.name }}</div> 
         {%- endif -%}
         {%- include nav/collection.html
               pages = collection
               key = collection_key -%}
     {%- endif -%}
-
+    {%- else -%}
+    {%- for collection_nav in jtd_collections -%}
+      {%- assign collections_key = collection_nav[0] -%}
+      {%- assign collections_value = collection_nav[1] -%}
+        {%- if collections_value.nav_exclude != true -%}
+            <a class="droplink nav-category" href="/{{ collections_key }}">{{ collections_value.name }}</a>
+        {%- endif -%}
+    {%- endfor -%}
+</div>
 
 {%- endif -%}

@@ -1,0 +1,6 @@
+{%- assign jtd_collections = site.just_the_docs.collections -%}
+{%- if site.just_the_docs.collections and page.collection != nil  -%}
+
+  {%- assign collection_key = page.collection -%}
+  {%- assign collection_value = jtd_collections.[collection_key] -%}
+{%- endif -%}

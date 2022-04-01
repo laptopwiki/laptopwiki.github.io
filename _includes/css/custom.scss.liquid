@@ -77,18 +77,83 @@
 }
 
 /* Style The Dropdown Button */
+
+.collection-nav {
+  width: 100%;
+  @include mq(lg) {
+    width: $nav-width;
+  }
+}
+
+.collection-arrow {
+  position: absolute;
+  width: 8rem;
+  padding-top: 1rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.96rem;
+  padding-left: 0.5rem;
+  right: 0rem;
+  text-align: right;
+  color: $body-background-color;
+  z-index: 1;
+  background-color: $link-color;
+  svg {
+    width: 1rem;
+    transform: rotate(-90deg);
+  }
+}
+
+.collection-arrow:hover {
+  background-color: $hover-color;
+}
+
+.collection-arrow-up svg{
+  transform: rotate(90deg);
+}
+
+/* Making it responsive for desktop */
+
+@include mq(md) {
+  .collection-arrow-up:hover + .dropbtn, .collection-arrow-up + .dropbtn:hover {
+    padding-left: 3rem;
+  }
+  .collection-arrow {
+    width: 2rem;
+    svg {
+      transform: rotate(0);
+    }
+  }
+  .collection-arrow-up {
+  left:0;
+    svg {
+      transform: rotate(180deg);
+
+    }
+  }
+}
+
 .dropbtn, .droplink {
   border: none;
   cursor: pointer;
   font-size: 14px !important;
   letter-spacing: .05em;
-  border-bottom: $border $border-color;
   display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.droplink {
+  border-bottom: $border $border-color;
 }
 
 .dropbtn {
 	background: $link-color;
 	color: $body-background-color;
+  position: relative;
+}
+
+.dropbtn:hover {
+  background: $hover-color;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -100,14 +165,14 @@
 
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Content */
 .dropdown-content {
-  display: none;
+  display: block;
   position: relative;
-  background-color: $body-background-color;
+  background-color: $sidebar-color;
   min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(50,50,50,0.1);
   z-index: 1;
+
 }
 
 /* Links inside the dropdown */
@@ -117,12 +182,15 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover, a.droplink:hover {
+  background-color: $feedback-color;
+}
+
+.display-none {
+  display: none;
+}
 
 /* Show the dropdown menu on hover */
-.drop-appear {
-  display: block;
-}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
