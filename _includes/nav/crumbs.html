@@ -6,22 +6,14 @@
 {%- endcomment -%}
 
 {%- if page.collection != nil and page.collection != "posts" -%}
-  {%- if site.just_the_docs.collections -%}
-    {%- assign collections_size = site.just_the_docs.collections | size -%}
-    {%- for collection_entry in site.just_the_docs.collections -%}
+  {%- if jtd_collections -%}
 
-      {%- assign collection_key = collection_entry[0] -%}
-      {%- assign collection_value = collection_entry[1] -%}
-
-      {%- if collection_value.nav_exclude != true -%}
         {%- if collection_key == page.collection -%}
           {%- assign collection_crumb = true -%}
           {%- assign collection_crumb_link =  page.collection -%}
           {%- assign collection_crumb_label =  collection_value.name -%}
         {%- endif -%}
-      {%- endif -%}
 
-    {%- endfor -%}
   {%- endif -%}  
 {%- endif -%}
 
