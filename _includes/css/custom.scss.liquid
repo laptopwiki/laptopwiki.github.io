@@ -191,8 +191,35 @@
   display: none;
 }
 
-/* Show the dropdown menu on hover */
+/* Styling the Content TOC */
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+#content-nav-container {
+  position: absolute;
+  top: 7rem;
+  right: -2rem;
+}
+
+#content-nav {
+  position: fixed;
+}
+
+#content-nav {
+  position: fixed;
+  font-size: 12px;
+  text-transform: uppercase;
+
+}
+#content-nav-container a {
+  color: $grey-dk-000;
+  text-decoration: none;
+}
+
+.toc-ul li {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.toc-ul li:before {
+  content: "";
+  display: none;
 }

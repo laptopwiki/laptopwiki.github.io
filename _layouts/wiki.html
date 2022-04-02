@@ -14,8 +14,15 @@ layout: default
 	{% endfor %}
 	</ul>
 {%- endif -%}
+
 {%- if page.toc_content != false -%}
-	{% include toc_liquid.html 
-        html=content
-        h_max= 3 %}
+	<div id="content-nav-container">
+		<div id="content-nav">
+			{% include toc_liquid.html 
+        		html= content
+        		h_max= 3
+        		class= "toc-ul"
+        		item_class= "toc-li" %}
+        </div>
+	</div>
 {%- endif -%}
