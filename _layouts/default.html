@@ -109,10 +109,6 @@ layout: table_wrappers
           {{ content }}
         {% endif %}
 
-        {% unless page.has_toc == false %}
-          {% include toc.html html=content %}
-        {% endunless %}
-
         {% capture footer_custom %}
           {%- include footer_custom.html -%}
         {% endcapture %}
