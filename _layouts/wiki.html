@@ -14,3 +14,8 @@ layout: default
 	{% endfor %}
 	</ul>
 {%- endif -%}
+{%- if page.toc_content != false -%}
+	{% include toc_liquid.html 
+        html=content
+        h_max= 3 %}
+{%- endif -%}
