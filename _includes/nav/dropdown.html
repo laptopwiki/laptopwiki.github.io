@@ -17,7 +17,7 @@
 
 
 <div class="dropdown">
-  <a href="#" id="arrow-down" class="collection-arrow collection-arrow-up" onClick="drop_menu()"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+  <a id="arrow-down" class="collection-arrow collection-arrow-up" onClick="drop_menu()"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
   <a href="/{{ include.key }}" class="nav-category dropbtn">{{ include.value.name }}</a>
   <div id ="drop-menu" class="dropdown-content display-none">
   	{%- for collection_nav in include.collection -%}
