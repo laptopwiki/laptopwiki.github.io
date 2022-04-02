@@ -2,13 +2,14 @@
 
 /* Style The Toggle Button */
 
-.mode-container {
+#mode-container {
   width: 100%;
   border-bottom: $border $border-color;
   color: $grey-dk-000;
-  font-size: .9em;
   @include mq(lg) {
     width: $nav-width;
+    display: block;
+    font-size: .9em;
   }
 }
 
@@ -74,6 +75,10 @@
 .nav-category {
 	margin-top:0;
 	text-align: initial;
+}
+
+#nav-container {
+  margin-bottom: 0.5rem;
 }
 
 /* Style The Dropdown Button */
