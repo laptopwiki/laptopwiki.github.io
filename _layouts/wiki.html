@@ -18,11 +18,13 @@ layout: default
 {%- if page.toc_content != false -%}
 	<div id="content-nav-container">
 		<div id="content-nav">
+		<h4>Page Contents</h4>
 			{% include toc_liquid.html 
         		html= content
         		h_max= 3
         		class= "toc-ul"
-        		item_class= "toc-li" %}
+        		item_class= "toc-li" 
+        		anchor_class= "toc-link" %}
         </div>
 	</div>
 {%- endif -%}
