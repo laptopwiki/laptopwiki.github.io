@@ -21,10 +21,15 @@ layout: default
 		<h4>Page Contents</h4>
 			{% include toc_liquid.html 
         		html= content
+        		id = "toc-ul"
         		h_max= 3
         		class= "toc-ul"
         		item_class= "toc-li" 
         		anchor_class= "toc-link" %}
         </div>
 	</div>
+	<script type="text/javascript">
+		$("#toc-ul").scrollspy({activeClass: "toc-active"});
+	</script>
+
 {%- endif -%}
