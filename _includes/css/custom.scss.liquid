@@ -7,7 +7,7 @@
   border-bottom: $border $border-color;
   color: $grey-dk-000;
   font-size: .9em;
-  @include mq(lg) {
+  @include mq(xxl) {
     width: $nav-width;
   }
 }
@@ -80,7 +80,7 @@
 
 .collection-nav {
   width: 100%;
-  @include mq(lg) {
+  @include mq(xxl) {
     width: $nav-width;
   }
 }
@@ -197,6 +197,10 @@
   position: absolute;
   top: 7rem;
   right: -2rem;
+  display: none;
+  @include mq(xl) {
+    display: block;
+  }
 }
 
 #content-nav {
@@ -209,8 +213,6 @@
   text-transform: uppercase;
 
 }
-
-
 
 #content-nav-container a {
   color: $grey-dk-000;
@@ -249,7 +251,5 @@ a.toc-link:hover, a.toc-active {
   color: $link-color !important;
   padding-left: 0.8rem;
 }
-
-
 
 

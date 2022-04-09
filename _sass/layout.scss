@@ -18,8 +18,8 @@
     align-items: flex-end;
   }
 
-  @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+  @include mq(xxl) {
+    width: calc((100% - #{$nav-width + $content-width}) / 3 + #{$nav-width});
     min-width: $nav-width;
   }
 }
@@ -31,9 +31,9 @@
     margin-left: $nav-width-md;
   }
 
-  @include mq(lg) {
+  @include mq(xxl) {
     margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+      (100% - #{$nav-width + $content-width}) / 3 + #{$nav-width}
     );
   }
 }
@@ -76,7 +76,7 @@
 .site-footer {
   width: 100%;
 
-  @include mq(lg) {
+  @include mq(xxl) {
     width: $nav-width;
   }
 }

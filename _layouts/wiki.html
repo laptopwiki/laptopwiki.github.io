@@ -1,20 +1,6 @@
 ---
 layout: default
 ---
-
-{{ content }}
-
-{%- if page.contributors -%}
-	<h4>Contributors</h4>
-	<ul class="list-style-none">
-	{% for contributor in page.contributors %}
-  		<li class="d-inline-block mr-1">
-     	<a href="https://github.com/{{ contributor }}"><img src="https://github.com/{{ contributor }}.png?size=60" width="32" height="32" alt="{{ contributor }}"/></a>
-  		</li>
-	{% endfor %}
-	</ul>
-{%- endif -%}
-
 {%- comment -%}
  Liquid TOC and JS Active scroll states
 
@@ -34,7 +20,33 @@ layout: default
         </div>
 	</div>
 	<script type="text/javascript">
-		$("#toc-ul").scrollspy({activeClass: "toc-active"});
+		$(function() {
+  			$(window).scroll(function() {
+    			$("h1, h2, h3").each(function() {
+      				if ($(window).scrollTop() >= $(this).offset().top) {
+        				var id = $(this).attr('id');
+        				$('.toc-li a').removeClass('toc-active');
+        				$('.toc-li a[href="#' + id + '"]').addClass('toc-active');
+      				}
+    			});
+  			});
+		});
+
 	</script>
 
 {%- endif -%}
+
+
+{{ content }}
+
+{%- if page.contributors -%}
+	<h4>Contributors</h4>
+	<ul class="list-style-none">
+	{% for contributor in page.contributors %}
+  		<li class="d-inline-block mr-1">
+     	<a href="https://github.com/{{ contributor }}"><img src="https://github.com/{{ contributor }}.png?size=60" width="32" height="32" alt="{{ contributor }}"/></a>
+  		</li>
+	{% endfor %}
+	</ul>
+{%- endif -%}
+
