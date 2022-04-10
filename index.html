@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+description: "All things laptop"
+nav_exclude: true
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a class="link-title" href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span>
+  </p>
+  {%- if post.image != nil -%}
+    <div class="post-image">
+        <img src="{{ post.image }}"/>
+    </div>
+  {%- endif -%}
+  <div class="post-excerpt">
+    {{ post.excerpt }}
+  </div>
+  <a href="{{ post.url }}"class="read-more">Continue Reading</a>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="post-pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="post-previous">
+      &larr;
+    </a>
+  {% else %}
+  {% endif %}
+  <span class="post-page-number ">
+ {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="post-next">&rarr;</a>
+  {% else %}
+  {% endif %}
+</div>
