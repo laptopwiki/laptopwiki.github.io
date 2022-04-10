@@ -1,5 +1,40 @@
 @import "./custom/custom";
 
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $body-background-color; 
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $feedback-color;
+  border-radius: 50px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $hover-color; 
+  border-radius: 50px;
+}
+
+
+
+.post-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.post-pagination {
+  text-align: right;
+  padding-top: 1rem;
+}
+
 /* Style The Toggle Button */
 
 #mode-container {
