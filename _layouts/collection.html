@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{%- if page.collection != nil -%}
+{%- assign current_link = "/" | append: page.collection -%}
+  <hr>
+  <h2 class="text-delta">{{ site.toc_heading | default: "Table of contents" }}</h2>
+  <ul>
+    {%- for post in site[page.collection] -%}
+      {%- if post.parent == nil and post.permalink != current_link -%}
+      <li>
+        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
