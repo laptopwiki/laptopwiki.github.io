@@ -146,11 +146,15 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-paginate
 
 kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+
+paginate: 5
+paginate_path: "/news/page:num/"
 
 compress_html:
   clippings: all
