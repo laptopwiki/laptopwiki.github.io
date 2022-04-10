@@ -28,13 +28,13 @@ nav_exclude: true
     <a href="{{ paginator.previous_page_path }}" class="post-previous">
       &larr;
     </a>
-  {% else %}
   {% endif %}
   <span class="post-page-number ">
- {{ paginator.page }} of {{ paginator.total_pages }}
+  {{%- if paginator.page != nil -%}}
+      {{ paginator.page }} of {{ paginator.total_pages }}
+  {{%- endif -%}}
   </span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="post-next">&rarr;</a>
-  {% else %}
   {% endif %}
 </div>
