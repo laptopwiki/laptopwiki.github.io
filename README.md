@@ -4,11 +4,8 @@
 <br><br>
 <p align="center">
     <h1 align="center">Laptop Wiki</h1>
+    <p>This is the repo where the laptop wiki website is served from. Laptop Wiki aims to collate fragments of information found on various communities and forums into one place. No more drowning yourself in google search trying to find answers.</p>
 </p>
-
-## About
-
-This is the repo where the laptop wiki website is served from. Laptop Wiki aims to collate fragments of information found on various communities and forums into one place. No more drowing yourself in google search trying to find answers.
 
 ## Contributing
 
