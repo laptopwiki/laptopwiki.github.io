@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Laptop Wiki
-description: A Wikipedia for Laptops
+description: Extensive documentation for all things laptops.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://laptopwiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -26,12 +26,8 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 
 # Define Jekyll collections
 collections:
-  # Define a collection named "docs", its documents reside in the "_docs" directory
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  # Define a collection named "docs", its documents reside in the "_docs" directory
-  tests:
+  # Define a collection named "contribute", its documents reside in the "_contribure" directory
+  contribute:
     permalink: "/:collection/:path/"
     output: true
 
@@ -39,18 +35,9 @@ just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
     # Reference the "docs" collection
-    docs:
+    contribute:
       # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-    tests:
-      # Give the collection a name
-      name: Testing
+      name: Contribute
       # Exclude the collection from the navigation
       # Supports true or false (default)
       nav_exclude: false
@@ -110,7 +97,7 @@ nav_cache: true # default, equivalent to nil
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+footer_content: ""
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -121,8 +108,8 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/pmarsceill/just-the-docs" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
+gh_edit_repository: "https://github.com/laptopwiki/laptopwiki.github.io" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
@@ -140,7 +127,7 @@ toggle_page_url: "/"               # default: nil (display on all pages)
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-2709176-10
+ga_tracking: 
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
