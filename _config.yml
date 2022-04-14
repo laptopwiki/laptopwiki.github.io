@@ -169,7 +169,7 @@ callouts:
     title: Attention
     color: purple
   caution:
-    title: Caution
+    title: ⚠ Caution
     color: yellow
   custom:
     title: Custom
@@ -197,5 +197,5 @@ callouts:
     title: Tip
     color: grey-dk
   warning:
-    title: Warning
+    title: 🚫 Warning
     color: red

@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Create Section
+title: Create New Section
 description: "Create a new section on Laptop Wiki"
 contributors: [nonkerdoob]
 ---
@@ -15,7 +15,7 @@ Sections are served from a directory where markdown files are stored. They are c
 
 ### Name the section key
 
-The section key will be referred to as ``sectionkey`` for the purpose of this guide. Your key should closely match the section name.
+The section key will be referred to as ``sectionkey`` for the purpose of this guide. Your key should closely match the section name you intend to create.
 
 To get started, fork the ``main`` branch of the wiki's repository on Github. Click on add new file.
 
@@ -32,16 +32,16 @@ Copy and Paste this onto the top of the file. Replace ``sectionkey`` with the ke
 ```yaml
 ---
 layout: collection
-title: section Name
-description: "section Description"
+title: Section Name
+description: "Section Description"
 nav_exclude: true
 permalink: /sectionkey
 ---
 
-# section Name (Can be different from the title and permalink)
-
----
+# Section Name (Can be different from the title and permalink)
 ```
+
+You are free to add content in markdown if you want to.
 
 ### Save Changes
 
@@ -51,7 +51,8 @@ Scroll Down and click on ``Commit new file`` to save your changes.
 
 After creating the directory and index, you have to tell Jekyll that the folder is a section. Navigate to the root of the branch and look for the file named ``_config.yml``.
 
-> &#9888; Do not use tab for indendation in the config file, use space instead.
+{: .warning}
+Do not use tab for indendation in the config file, use space instead.
 
 ### Locate the collection array
 
@@ -82,7 +83,7 @@ To add your new section, replace the ``sectionkey`` with the name of your key an
     output: true
 ```
 
-For the purpose of this guide I will be creating the section with the key ``laptops`` and place it between ``guides`` and ``contribute``. The final output will look like this.
+For the purpose of this guide I will be creating the section with a key ``laptops`` and place it between ``guides`` and ``contribute``. The final output will look like this.
 
 #### Example
 ```yaml
@@ -189,5 +190,14 @@ just_the_docs:
 Scroll Down and click on ``Commit changes`` to save your changes.
 
 
-## Fin
-The new section should now be added. Open a pull request detailing why you think the section is important.
+# Fin
+The new section should now be added. Recap what you have done -
+
+- [ ] There exists a directory called ``_sectionkey``
+- [ ] The directory has an index file named ``sectionkey.md``
+  - [ ] The permalink is set to ``/sectionkey``
+- [ ] Necessary changes have been made in ``_config.yml``
+  - [ ] ``sectionkey`` is added to ``collections`` sequence
+  - [ ] ``just-the-docs > collections `` have been updated with the necessary meta data to reflect the new ``sectionkey``
+
+Open a pull request detailing why you think the section is important.
