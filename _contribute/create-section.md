@@ -1,3 +1,9 @@
+---
+layout: wiki
+title: Create Section
+description: "Create a new section on Laptop Wiki"
+---
+
 # Create New Section
 
 ---
@@ -27,7 +33,8 @@ nav_exclude: true
 permalink: /categoryname
 ---
 
-# Category Name (Can be different from the title and 
+# Category Name (Can be different from the title and permalink)
+
 ---
 ```
 
