@@ -29,7 +29,7 @@ The directory name and the file name should match and should contain no spaces. 
 
 Copy and Paste this onto the top of the file. Replace ``categorykey`` with the key of your category. If you want, add a description too between the double quotes ``""``.
 
-```
+```yaml
 ---
 layout: collection
 title: Category Name
@@ -59,7 +59,7 @@ In Jekyll, sections are defined as a sequence / array called collections. We nee
 
 Press ``Ctrl+F`` or ``Command+F`` if you are on a Mac to bring up the search function. Type in ``collections:``. It should bring up a search result that looks like this.
 
-```
+```yaml
 collections:
   # Define a collection named "guides", its documents reside in the "_guides" directory
   guides:
@@ -75,7 +75,7 @@ collections:
 
 To add your new section, replace the ``categorykey`` with the name of your key and place it according to the order it should appear on the Laptop Wiki side bar.
 
-```
+```yaml
   # Define a collection named "categorykey", its documents reside in the "_categorykey" directory
   categorykey:
     permalink: "/:collection/:path/"
@@ -85,7 +85,7 @@ To add your new section, replace the ``categorykey`` with the name of your key a
 For the purpose of this guide I will be creating the section with the key ``laptops`` and place it between ``guides`` and ``contribute``. The final output will look like this.
 
 #### Example
-```
+```yaml
 collections:
   # Define a collection named "guides", its documents reside in the "_guides" directory
   guides:
@@ -105,7 +105,7 @@ collections:
 
 Next look for the sequence named ``just-the-docs``. It should have a sub sequence called ``collections``.
 
-```
+```yaml
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
@@ -133,7 +133,7 @@ just_the_docs:
 
 We need to add our section here, replace ``categorykey`` with the key and add it matching the order it should appear on the side bar.
 
-```
+```yaml
     # Reference the "categorykey" collection
     categorykey:
       # Give the collection a name
@@ -149,7 +149,7 @@ We need to add our section here, replace ``categorykey`` with the key and add it
 Using our previous example of ``laptops`` it should look like this -
 
 #### Example
-```
+```yaml
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
