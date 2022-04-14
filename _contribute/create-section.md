@@ -146,7 +146,7 @@ We need to add our section here, replace ``categorykey`` with the key and add it
       search_exclude: false
 ```
 
-Using our previous example of laptops it should look like this -
+Using our previous example of ``laptops`` it should look like this -
 
 #### Example
 ```
@@ -184,6 +184,10 @@ just_the_docs:
       # Supports true or false (default)
       search_exclude: false
 ```
+### Save Changes
+
+Scroll Down and click on ``Commit changes`` to save your changes.
+
 
 ## Fin
 The new section should now be added. Open a pull request detailing why you think the section is important.
