@@ -152,3 +152,50 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+# Callouts
+# The title of a callout is optional, and rendered in uppercase.
+# The variables $color-000, $color-100, $color-200, $color-300 are required.
+# Predefined colors: grey-lt, grey-dk, purple, blue, green, yellow, red.
+# The names of callouts need to avoid the class names used in the theme CSS!
+# - avoid btn, highlight, icon, label, main, search, and hyphenated words.
+# Common names for callouts:
+# admonition, attention, caution, danger, error, hint, important, note, tip, warning.
+callouts:
+  admonition:
+    # title:
+    color: grey-lt
+  attention:
+    title: Attention
+    color: purple
+  caution:
+    title: Caution
+    color: yellow
+  custom:
+    title: Custom
+    color: pink
+    opacity: 0.3
+  danger:
+    title: Danger
+    color: red
+  error:
+    title: Error
+    color: red
+  highlight:
+    color: yellow
+    opacity: 0.5
+  hint:
+    title: Hint
+    color: grey-dk
+  important:
+    title: Important
+    color: green
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: grey-dk
+  warning:
+    title: Warning
+    color: red
