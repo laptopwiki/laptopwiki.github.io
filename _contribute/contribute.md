@@ -7,7 +7,6 @@ permalink: /contribute
 ---
 
 # Contribute
----
 
 Laptop Wiki is maintained by enthusiasts from laptop communities around the globe. This section details how you can be a part of it too.
 

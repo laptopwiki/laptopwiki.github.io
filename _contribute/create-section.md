@@ -7,38 +7,38 @@ contributors: [nonkerdoob]
 
 # Create New Section
 
----
-
 Sections can be seen as equivalent to categories. Each section aims to fulfill a different purpose. The section you are currently on is called ``Contribute`` and serves as a guide on how to add content to the wiki.
 
 ## Creating the directory
 
-Sections are served from a folder where markdown files are stored. They are created in the root of the site. 
+Sections are served from a directory where markdown files are stored. They are created in the root of the site. 
 
-### Name the category key
+### Name the section key
 
-The category key will be referred to as ``categorykey`` for the purpose of this guide. To get started, fork the ``main`` branch of the wiki's repository on Github. Click on add new file.
+The section key will be referred to as ``sectionkey`` for the purpose of this guide. Your key should closely match the section name.
 
-You will be greeted with a text editor. Name the file ``_categorykey/categorykey.md``. 
+To get started, fork the ``main`` branch of the wiki's repository on Github. Click on add new file.
 
-This will create a directory called ``_categorykey`` and file called ``categorykey.md``.
+You will be greeted with a text editor. Name the file ``_sectionkey/sectionkey.md``. 
+
+This will create a directory called ``_sectionkey`` and file called ``sectionkey.md``.
 
 The directory name and the file name should match and should contain no spaces. Preceeding ``_`` underscore and the file extension ``.md`` are important.
 
 ### Add Front Matter
 
-Copy and Paste this onto the top of the file. Replace ``categorykey`` with the key of your category. If you want, add a description too between the double quotes ``""``.
+Copy and Paste this onto the top of the file. Replace ``sectionkey`` with the key of your section. If you want, add a description too between the double quotes ``""``.
 
 ```yaml
 ---
 layout: collection
-title: Category Name
-description: "Category Description"
+title: section Name
+description: "section Description"
 nav_exclude: true
-permalink: /categorykey
+permalink: /sectionkey
 ---
 
-# Category Name (Can be different from the title and permalink)
+# section Name (Can be different from the title and permalink)
 
 ---
 ```
@@ -47,7 +47,7 @@ permalink: /categorykey
 
 Scroll Down and click on ``Commit new file`` to save your changes.
 
-## Configuring the category
+## Configuring the section
 
 After creating the directory and index, you have to tell Jekyll that the folder is a section. Navigate to the root of the branch and look for the file named ``_config.yml``.
 
@@ -73,11 +73,11 @@ collections:
 
 ### Add the new section
 
-To add your new section, replace the ``categorykey`` with the name of your key and place it according to the order it should appear on the Laptop Wiki side bar.
+To add your new section, replace the ``sectionkey`` with the name of your key and place it according to the order it should appear on the Laptop Wiki side bar.
 
 ```yaml
-  # Define a collection named "categorykey", its documents reside in the "_categorykey" directory
-  categorykey:
+  # Define a collection named "sectionkey", its documents reside in the "_sectionkey" directory
+  sectionkey:
     permalink: "/:collection/:path/"
     output: true
 ```
@@ -131,13 +131,13 @@ just_the_docs:
       search_exclude: false
 ```
 
-We need to add our section here, replace ``categorykey`` with the key and add it matching the order it should appear on the side bar.
+We need to add our section here, replace ``sectionkey`` with the key and add it matching the order it should appear on the side bar.
 
 ```yaml
-    # Reference the "categorykey" collection
-    categorykey:
+    # Reference the "sectionkey" collection
+    sectionkey:
       # Give the collection a name
-      name: Category Name
+      name: section Name
       # Exclude the collection from the navigation
       # Supports true or false (default)
       nav_exclude: false
