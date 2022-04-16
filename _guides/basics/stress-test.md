@@ -7,7 +7,7 @@ contributors: ["basmal","nonkerdoob"]
 
 # Laptop Stress Test Guide
 
-Stress tests are fixed & maxed-out synthetic load which will maximize the heat generation. It makes a perfect test for thermal design of a laptop, the reason why it's important because many laptops fail even that basic prerequisite, it separates the wheat from the chaff.
+Stress tests are fixed synthetic load which will maximize the heat generation of the components being tested. It is perfect to test thermal design in a laptop, the reason why it's important because many laptops fail even that basic prerequisite, it separates the wheat from the chaff.
 
 Either follow written tutorial below or [this video tutorial](https://youtu.be/J4s3ghSNj8Q)
 
