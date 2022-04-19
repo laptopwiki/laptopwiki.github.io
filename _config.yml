@@ -30,6 +30,10 @@ collections:
   guides:
     permalink: "/:collection/:path/"
     output: true
+  # Define a collection named "laptops", its documents reside in the "_laptops" directory
+  laptops:
+    permalink: "/:collection/:path/"
+    output: true
   # Define a collection named "contribute", its documents reside in the "_contribure" directory
   contribute:
     permalink: "/:collection/:path/"
@@ -42,6 +46,16 @@ just_the_docs:
     guides:
       # Give the collection a name
       name: Guides
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    # Reference the "laptops" collection
+    laptops:
+      # Give the collection a name
+      name: Laptops
       # Exclude the collection from the navigation
       # Supports true or false (default)
       nav_exclude: false
