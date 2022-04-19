@@ -11,7 +11,7 @@ contributors: ["dglt1","nonkerdoob"]
 This is only meant for Intel laptops. AMD doesn't support undervolting on mobile CPUs yet.  
 I am not responsible for any damage that might ensue from trying this yourself. 
 
-Following the guide should unlock undervoling throught Throttlestop or XTU.
+Following the guide should unlock undervoling through Throttlestop or XTU.
 
 ![image](https://user-images.githubusercontent.com/100846697/163895366-a685fac8-25c0-4c72-9821-9679a3e4d988.png)
 
@@ -43,31 +43,35 @@ Ensure you are in the right folder by running the command ``dir``. It should out
 
 
 {: .highlight}
-If you only see a folder named "InsydeH2OUVE_x86_WINx64_200.00.01.00" or similar, bring the contents of that folder outside into "insyde-tool" or use the cd command to change the directory to that folder.
+If you only see a folder named ``InsydeH2OUVE_x86_WINx64_200.00.01.00`` or similar, bring the contents of that folder outside into ``insyde-tool`` or use the cd command to change the directory to that folder.
 
 ## Editing Vars
 
 {: .warning}
-Warning: always dump and edit fresh vars, using vars from a previous boot session may have a different order from the current boot and may cause problems. A bios update will lock the undervolt. This method might have to be redone to unlock it again. DO NOT USE VARS from an older bios or a previous session.
+Aways dump and edit fresh vars, using vars from a previous boot session may have a different order from the current boot and may cause problems. A bios update will lock the undervolt. This method might have to be redone to unlock it again. DO NOT USE VARS from an older bios or a previous session.
 
 Once you are in the correct directory, run the following command to dump vars.
+
 ```
 H2OUVE-W-CONSOLEx64.exe -gv vars.txt
 ```
 
-The command should create a file named "vars.txt" in the folder where you extracted the tool to earlier.  Open with notepad to edit. CTRL+F and search for ``CpuSetup``. Find the value as shown in the screenshot. Additionally take note of the value underlined in red. (It varies on each vars extraction)
+The command should create a file named ``vars.txt`` in the folder where you extracted the tool to earlier.  Open with notepad to edit. CTRL+F and search for ``CpuSetup``. 
+
+Find the value as shown in the screenshot. Additionally take note of the value underlined in red. (It varies on each vars extraction)
 Change the value from ``01`` to ``00``.
 
 ![image](https://user-images.githubusercontent.com/100846697/163895608-b18af097-0dde-4e5a-8375-8e80a0e44467.png)
 
 {: .tip}
-For 10th Gen - Row containing 000000D0. Column 6 when counting from the right.
+For 10th Gen - Row containing 000000D0. Column 6 when counting from the right.  
 For 11th Gen - Row containing 000000D0. Last Column.
 
-After changing the bit value that's highlighted in the picture, save the file as vars-m.txt in the same directory.
+After changing the bit value that's highlighted in the picture, save the file as ``vars-m.txt`` in the same directory.
 
 ## Flashing Vars
 Go back to the same command prompt and run this last command
+
 ```
 H2OUVE-W-CONSOLEx64.exe -sv vars-m.txt
 ```
@@ -84,16 +88,16 @@ Reboot and you should have undervolt working. Throttlestop shouldn't say locked 
 
 ## Video Tutorial
 
-The video was made for 10th gen. However most of the steps are same. For 11th gen be sure to change ``0xDF`` and not ``0xDA``. Read Editing Vars for more info.
+The video was made for 10th gen. However most of the steps are same. For 11th gen be sure to change ``0xDF`` and not ``0xDA``. Read [Editing Vars](#editing-vars) for more info.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lYSKzZRQcOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/lYSKzZRQcOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # References
 
 Original Guide Written by u/dglt1  
 Edited for convenience.
 
-[Notebook Review Archives](https://web.archive.org/web/20220125093526/http://forum.notebookreview.com/threads/lenovo-legion-5-and-7-2020.832593/page-27){:target="_blank")
+[Notebook Review: Internet Archives](https://web.archive.org/web/20220125093526/http://forum.notebookreview.com/threads/lenovo-legion-5-and-7-2020.832593/page-27){:target="_blank"}
 
 [Legion Series DIscord](discord.gg/legionseries){:target="_blank"}
 
