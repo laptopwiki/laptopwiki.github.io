@@ -11,7 +11,7 @@ contributors: ["dglt1","nonkerdoob"]
 This is only meant for Intel laptops. AMD doesn't support undervolting on mobile CPUs yet.  
 I am not responsible for any damage that might ensue from trying this yourself. 
 
-Following the guide should unlock undervoling through Throttlestop or XTU.
+Following the guide should unlock undervolting through Throttlestop or XTU.
 
 ![image](https://user-images.githubusercontent.com/100846697/163895366-a685fac8-25c0-4c72-9821-9679a3e4d988.png)
 
