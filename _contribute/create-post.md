@@ -9,30 +9,33 @@ contributors: ['nonkerdoob','horizon3902']
 
 Content on laptop wiki are written using Markdown and it's properties defined using YAML front matter. This guide covers how to create a new post, set it's properties and how to submit it. 
 
-To create a new submission, you have to fork the ``main`` branch of the Github repo this wiki is served from. Add the post and create a pull request. 
+To create a new submission, you have to fork the ``main`` branch of the Github repo this wiki is served from. Add the post and create a pull request.
+
+Creating a fork is fairly simple, just look for the fork button and click, Github will guide you through the rest. You need to fork it since the wiki repo is not directly editable. You will essentially be making a copy of the repo where you will be making the edits.
+
+A pull request submits your edits for a review before it is merged with the main repo.
 
 ## Taxonomy
 
 This wiki is categorized by sections, pages and sub pages. Sections are top level classification grouping similar posts together. 
 
-Pages display the posts submitted to this wiki. It can be or have a sub page. Sub-pages are children of a page.
+Pages display the posts submitted to this wiki. Sub-pages are children of a page.
 
-You can see this in action on top of post tiles in the form of breadcrumbs.
+You can see how it behaves in the side bar and breadcrumbs.
 
-![image](https://user-images.githubusercontent.com/100846697/164103343-11858683-5730-4786-bc4b-36c610b5b809.png)
+![image](https://user-images.githubusercontent.com/100846697/164338263-df268967-5e38-401a-900c-b642cc84b4e6.png)
 
-In the above image, the red underline is a section. The teal underline is a page, and if it is dashed, it is a sub-page.
+Red is a section, teal is a page, and if it is dashed, it is a sub-page. Pages can be nested within pages.
 
-Looking at it in conjunction with the side bar makes it clearer.
-
-![image](https://user-images.githubusercontent.com/100846697/164109319-d8ddd7b7-4aff-456e-9e37-1f0d186c1725.png)
-
-
-You have to decided which section the post will go to and if it is going to be a sub - page.
+With this in mind, you will have to decide where you are going to place your post.
 
 ## Creating the file
 
-This guide will be using above entry as an example. It needs to be stored in ``_laptops/asus/zephyrus-g14/`` with the file named ``2020.md``. Directories containing markdown file that start with an underscore are sections. ``Laptop`` section's directory will be ``_laptops``. The rest of the directory matches the name of the parent pages. If the directories don't exist yet, read [Creating A Sub Page Directory]() and [Creating a Section]().
+We need to navigate to ``_section/page/sub-page/../`` to add your entry. If it doesn't exist read [Creating A Sub Page Directory]() and [Creating a Section](). 
 
-Click on ``Create New File``, and name the 
+In the above sample, we know the post belongs in ``Laptops`` section, and that is a sub - page of ``Zephyrus G14`` which in turn is a sub - page of ``Asus``. We navigate to ``_section/Asus/Zephyrus-G14/`` to add our new entry.
+
+Once in the correct directoy, click on ``Create New File``. An empty text editor courtesy of Gihub will be opened. Name the file a shorter version of the post title.
+
+
 
