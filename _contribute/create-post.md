@@ -33,9 +33,34 @@ With this in mind, you will have to decide where you are going to place your pos
 
 We need to navigate to ``_section/page/sub-page/../`` to add your entry. If it doesn't exist read [Creating A Sub Page Directory]() and [Creating a Section](). 
 
-In the above sample, we know the post belongs in ``Laptops`` section, and that is a sub - page of ``Zephyrus G14`` which in turn is a sub - page of ``Asus``. We navigate to ``_section/Asus/Zephyrus-G14/`` to add our new entry.
+In the above sample, we know the post belongs in ``Laptops`` section, and that is a sub - page of ``Zephyrus G14`` which in turn is a sub - page of ``Asus``. We navigate to ``_laptops/Asus/Zephyrus-G14/`` to add our new entry.
 
-Once in the correct directoy, click on ``Create New File``. An empty text editor courtesy of Gihub will be opened. Name the file a shorter version of the post title.
+While in the directory click on ``Create New File``. An empty text editor courtesy of Gihub will open. Name the file a shorter version of the post title. Keep in mind, this act as the permalink too.
+
+## Template
+
+Copy this template to the editor.
+
+```markdown
+---
+layout: wiki
+title: Post Title
+description: "Description"
+parent: Parent post
+grand-parent: grand-parent post
+ancestor: ancestor post
+contributors: ['github username'] 
+---
+
+# Post Title
+
+Your content goes here
+
+# Refereneces
+
+Footnotes
+
+```
 
 
 
