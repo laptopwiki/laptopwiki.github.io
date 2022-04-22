@@ -23,7 +23,7 @@ Pages display the posts submitted to this wiki. Sub-pages are children of a page
 
 You can see how it behaves in the side bar and breadcrumbs.
 
-![image](https://user-images.githubusercontent.com/100846697/164469633-e8229b88-c564-4bdc-aa12-bc497db1ce8b.png)
+![image](https://user-images.githubusercontent.com/100846697/164708701-61192303-8fd4-45c7-ab92-2f1312c7a4a0.png)
 
 Red is a section, teal is a page, and if it is dashed, it is a sub-page. Pages can be nested within pages.
 
@@ -104,6 +104,4 @@ Footnotes can be made using ``[^1]`` near the text, and then referencing ``[^1]:
 # Pull Request
 
 Once you are done editing, commit the changes and make a pull request with the ``main`` branch.
-
-
 
