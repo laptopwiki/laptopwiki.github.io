@@ -11,27 +11,42 @@ Content on laptop wiki are written using Markdown and it's properties defined us
 
 To create a new submission, you have to fork the ``main`` branch of the Github repo this wiki is served from. Add the post and create a pull request.
 
-Creating a fork is fairly simple, just look for the fork button and click, Github will guide you through the rest. You need to fork it since the wiki repo is not directly editable. You will essentially be making a copy of the repo where you will be making the edits.
+Creating a fork is fairly simple, just look for the fork button and click on it, Github will guide you through the rest. You need to fork it since the wiki repo is not directly editable. You will essentially be making a copy of the repo where you will be making the edits.
 
 A pull request submits your edits for a review before it is merged with the main repo.
 
 ## Taxonomy
 
-This wiki is categorized by sections, pages and sub pages. Sections are top level classification grouping similar posts together. 
-
-Pages display the posts submitted to this wiki. Sub-pages are children of a page.
+This wiki is categorized by sections, pages and its children. Sections are top level classification grouping similar posts together. Pages display the posts submitted to this wiki, they can have child pages.
 
 You can see how it behaves in the side bar and breadcrumbs.
 
 ![image](https://user-images.githubusercontent.com/100846697/164469633-e8229b88-c564-4bdc-aa12-bc497db1ce8b.png)
 
-Red is a section, teal is a page, and if it is dashed, it is a sub-page. Pages can be nested within pages.
-
-With this in mind, you will have to decide where you are going to place your post.
+Red is a section, teal is a page, and if it is dashed, it is a child. Pages can be nested within pages.
 
 ## Creating the file
 
-We need to navigate to ``_section/page/sub-page/../`` to add your entry. If it doesn't exist read [Creating A Sub Page Directory]() and [Creating a Section](). 
+You need to navigate to the appropriate directory in the repo. If it is a child page, there should be a corresponding directory with the name same name as the parent page. If the parent page is not yet made, it can be made using this guide,
+
+To make a directory for the parent page, preceed the name of , ensure that the directory is in the same directory as the parent page is in, i.e. if the ``Asus`` doesn't exist, it needs be
+
+```
++-- ..
+|-- (Site root)
+|
+|-- _sectionname
+|   |-- page-name.md
+|   |-- page-name
+|   |   |-- (child-pages.md) 
+|   |   |-- child-page-name.md
+|   |   |-- child-page-name
+|   |   |   +-- (child-pages.md)
+|   |   +--
+|   +-- (pages.md)
+|-- (Site root)
++--
+```
 
 In the above sample, we know the post belongs in ``Laptops`` section, and that is a sub - page of ``Zephyrus G14`` which in turn is a sub - page of ``Asus``. We navigate to ``_laptops/Asus/Zephyrus-G14/`` to add our new entry.
 
