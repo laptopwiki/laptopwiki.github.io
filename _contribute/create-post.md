@@ -13,23 +13,11 @@ To create a new submission, you have to fork the ``main`` branch of the Github r
 
 Creating a fork is fairly simple, just look for the fork button and click on it, Github will guide you through the rest. You need to fork it since the wiki repo is not directly editable. You will essentially be making a copy of the repo where you will be making the edits.
 
-A pull request submits your edits for a review before it is merged with the main repo.
+A pull request submits your edits for review before it is merged with the main repo.
 
-## Taxonomy
+## Navigation Structure
 
 This wiki is categorized by sections, pages and its children. Sections are top level classification grouping similar posts together. Pages display the posts submitted to this wiki, they can have child pages.
-
-You can see how it behaves in the side bar and breadcrumbs.
-
-![image](https://user-images.githubusercontent.com/100846697/164708701-61192303-8fd4-45c7-ab92-2f1312c7a4a0.png)
-
-Red is a section, teal is a page, and if it is dashed, it is a child. Pages can be nested within pages.
-
-## Creating the file
-
-You need to navigate to the appropriate directory in the repo. If it is a child page, there should be a corresponding directory with the name same name as the parent page. If the parent page is not yet made, it can be made using this guide,
-
-To make a directory for the parent page, preceed the name of , ensure that the directory is in the same directory as the parent page is in, i.e. if the ``Asus`` doesn't exist, it needs be
 
 ```
 +-- ..
@@ -48,7 +36,36 @@ To make a directory for the parent page, preceed the name of , ensure that the d
 +--
 ```
 
-In the above sample, we know the post belongs in ``Laptops`` section, and that is a sub - page of ``Zephyrus G14`` which in turn is a sub - page of ``Asus``. We navigate to ``_laptops/Asus/Zephyrus-G14/`` to add our new entry.
+You can see how it behaves in the side bar and breadcrumbs.
+
+![image](https://user-images.githubusercontent.com/100846697/164708701-61192303-8fd4-45c7-ab92-2f1312c7a4a0.png)
+
+Red is a section, teal is a page, and if it is dashed, it is a child. Pages can be nested within pages.
+
+#### Example
+```
++-- ..
+|-- (Site root)
+|
+|-- _laptops
+|   |-- Asus.md
+|   |-- Asus
+|   |   |-- Zephyrus-G14.md
+|   |   |-- Zephyrus-G14
+|   |   |   +-- 2020
+|   |   +--
+|   +-- 
+|-- (Site root)
++--
+```
+
+You need to navigate to the appropriate directory in the repo. If it is a child page, there should be a corresponding directory with the name same name as the parent page. If the parent page is not yet made, create it with this guide.
+
+In the above sample, we know the post belongs in ``Laptops`` section, and that it is a child of ``Zephyrus G14`` which in turn is a child of ``Asus``. We navigate to ``_laptops/Asus/Zephyrus-G14/`` to add our new entry.
+
+To make a directory for the child pages, preceed the name of your post with the parent page's file name. If the directory ``Zephyrus-G14`` doesn't exist we can create it by naming the file ``Zephyrus-G14/2020.md``.
+
+## Creating the file
 
 While in the directory click on ``Create New File``. An empty text editor courtesy of Gihub will open. Name the file a shorter version of the post title. Keep in mind, this act as the permalink too.
 
@@ -78,7 +95,7 @@ Footnotes
 
 ```
 
-Start writing or paste your pre - edited content between ``# Post Title`` and ``# Reference``. Link your references under the References heading with the syntax ``[Example](https://example.com){:target="_blank"``. You can use [Markdown Cheat Sheet]() for help in formatting your content.
+Start writing or paste your pre - edited content between ``# Post Title`` and ``# Reference``. Link your references under the References heading with the syntax ``[Example](https://example.com){:target="_blank"}``. You can use [Markdown Cheat Sheet]() for help in formatting your content.
 
 
 ## Cleanup
@@ -96,15 +113,15 @@ You can give your post a description. This helps with SEO.
 
 ### ``parent``
 
-If the post is a sub - page, use the parent pages title here. Remove the line if not applicable.
+If the post is a child, use the parent pages title here. Remove the line if not applicable.
 
 ### ``grand-parent``
 
-If the parent page is a sub-page, use the title of the grand - parents page. Remove the line if not applicable.
+If the parent page is a child too, use the title of the grand - parents page. Remove the line if not applicable.
 
 ### ``ancestor``
 
-If the grand parent page is a sub page too, use the ``ancestors`` to mention a title of the page that is unique. It doesn't have to the direct parent of the grand - parent page.
+If the grand parent page is a child too, use the ``ancestors`` to mention a title of the page that is unique. It doesn't have to be the direct parent of the grand - parent page.
 
 ### ``contributors``
 
