@@ -1,9 +1,18 @@
 @import "./custom/custom";
 
-#main-content h1:first-of-type {
+#main-content h1 {
   border-bottom: $border $border-color;
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
+  a {
+    height: inherit;
+  }
+}
+
+#main-content h2 {
+  border-bottom: $border $border-color;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   a {
     height: inherit;
   }
@@ -26,11 +35,12 @@
 /* Track */
 ::-webkit-scrollbar-track {
   border-radius: 50px;
+  background-color: $feedback-color;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $feedback-color;
+  background: $grey-dk-100;
   border-radius: 50px; 
 }
 

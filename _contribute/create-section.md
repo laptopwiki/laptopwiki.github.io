@@ -7,7 +7,7 @@ contributors: [nonkerdoob]
 
 # Create New Section
 
-Sections can be seen as equivalent to categories. Each section aims to fulfill a different purpose. The section you are currently on is called ``Contribute`` and serves as a guide on how to add content to the wiki.
+Sections can be seen as equivalent to categories. The section you are currently on is called ``Contribute`` and serves as a guide on how to add content to the wiki.
 
 ## Creating the directory
 
@@ -29,7 +29,8 @@ The directory name and the file name should match and should contain no spaces. 
 
 Copy and Paste this onto the top of the file. Replace ``sectionkey`` with the key of your section. If you want, add a description too between the double quotes ``""``.
 
-```yaml
+#### Template
+```markdown
 ---
 layout: collection
 title: Section Name
@@ -60,6 +61,7 @@ In Jekyll, sections are defined as a sequence / array called collections. We nee
 
 Press ``Ctrl+F`` or ``Command+F`` if you are on a Mac to bring up the search function. Type in ``collections:``. It should bring up a search result that looks like this.
 
+#### Example
 ```yaml
 collections:
   # Define a collection named "guides", its documents reside in the "_guides" directory
@@ -76,6 +78,7 @@ collections:
 
 To add your new section, replace the ``sectionkey`` with the name of your key and place it according to the order it should appear on the Laptop Wiki side bar.
 
+#### Template
 ```yaml
   # Define a collection named "sectionkey", its documents reside in the "_sectionkey" directory
   sectionkey:
@@ -106,6 +109,7 @@ collections:
 
 Next look for the sequence named ``just-the-docs``. It should have a sub sequence called ``collections``.
 
+#### Example
 ```yaml
 just_the_docs:
   # Define which collections are used in just-the-docs
@@ -134,6 +138,7 @@ just_the_docs:
 
 We need to add our section here, replace ``sectionkey`` with the key and add it matching the order it should appear on the side bar.
 
+#### Template
 ```yaml
     # Reference the "sectionkey" collection
     sectionkey:
@@ -201,3 +206,9 @@ The new section should now be added. Recap what you have done -
   - [ ] ``just-the-docs > collections `` have been updated with the necessary meta data to reflect the new ``sectionkey``
 
 Open a pull request detailing why you think the section is important.
+
+<script type="text/javascript">
+  $(document).ready(function(){
+   $('.task-list-item-checkbox').prop("disabled", false); 
+}); 
+</script>
