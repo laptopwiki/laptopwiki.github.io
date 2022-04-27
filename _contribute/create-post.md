@@ -79,9 +79,9 @@ Copy this template to the editor.
 layout: wiki
 title: Post Title
 description: "Description"
-parent: Parent post
-grand-parent: grand-parent post
-ancestor: ancestor post
+parent: Parent title
+grand-parent: grand-parent title
+ancestor: ancestor title
 contributors: ['github username'] 
 ---
 
@@ -117,7 +117,7 @@ If the post is a child, use the parent pages title here. Remove the line if not 
 
 ### ``grand-parent``
 
-If the parent page is a child too, use the title of the grand - parents page. Remove the line if not applicable.
+If the parent page is a child too, use the title of the grandparents page. Remove the line if not applicable.
 
 ### ``ancestor``
 
@@ -131,9 +131,9 @@ It is an array, enter your github username inside the brackets with single quote
 
 Below the references heading, link your references using the markdown format ``[example](https://example.com){:target="_blank"}``. Square brackets contain the text that will be hyperlinked, paranthesis for the url and ``target="_blank"`` so that the link opens in a new window when a user clicks it.
 
-Footnotes can be made using ``[^1]`` near the text, and then referencing ``[^1]: Reference`` below the Footnoes sub - heading under the Reference heading.
+Footnotes can be made using ``[^1]`` near the text, and then referencing ``[^1]: Reference`` below the Footnoes sub - heading.
 
 # Pull Request
 
-Once you are done editing, commit the changes and make a pull request with the ``main`` branch.
+Once you are done editing, commit the changes and create a pull request with the ``main`` branch.
 
