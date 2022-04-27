@@ -1,0 +1,50 @@
+{%- comment -%}
+    {%- include nav/dropdown.html
+        collection = array
+        key = collection_key
+        value = collection_value -%}
+  outputs links for the main navigation. It also locates the current page in the
+  navigation hierarchy, and assigns to the variables `nav_page_ancestors`,
+  `nav_page_path`, and `nav_page_children`.
+  
+  retrieves collection list and outputs a nav.
+  collection is the collection array of just the docs.
+  key is [0] defined scope of the array. active collection goes here.
+  value is [1] defined scope of the array.
+
+{%- endcomment -%}
+
+
+
+<div class="dropdown">
+  <a id="arrow-down" class="collection-arrow collection-arrow-up" onClick="drop_menu()"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+  <a href="/{{ include.key }}" class="nav-category dropbtn">{{ include.value.name }}</a>
+  <div id ="drop-menu" class="dropdown-content display-none">
+  	{%- for collection_nav in include.collection -%}
+  		{%- assign collections_key = collection_nav[0] -%}
+  		{%- assign collections_value = collection_nav[1] -%}
+  			{%- if collections_value.nav_exclude != true -%}
+  				{%- if collections_key != include.key -%}
+    				<a class="droplink nav-category" href="/{{ collections_key }}">{{ collections_value.name }}</a>
+  				{%- endif -%}
+    		{%- endif -%}
+    {%- endfor -%}
+
+  </div>
+</div>
+<script>
+    function drop_menu() {
+    let currentDrop = document.getElementById("drop-menu");
+    let currentNav = document.getElementById("nav-container");
+    let currentArr = document.getElementById("arrow-down");
+    if (currentDrop.classList.contains("display-none")) {
+      currentDrop.classList.remove("display-none");
+      currentNav.classList.add("display-none");
+      currentArr.classList.remove("collection-arrow-up");
+    } else {
+      currentDrop.classList.add("display-none");
+      currentNav.classList.remove("display-none");
+      currentArr.classList.add("collection-arrow-up");
+    }
+  }
+</script>

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{%- comment -%}
+ Liquid TOC and JS Active scroll states
+
+{%- endcomment -%}
+
+{%- if page.toc_content != false -%}
+	<div id="content-nav-container">
+		<div id="content-nav">
+		<h4>Page Contents</h4>
+			{% include toc_liquid.html 
+        		html= content
+        		id = "toc-ul"
+        		h_max= 3
+        		class= "toc-ul"
+        		item_class= "toc-li" 
+        		anchor_class= "toc-link" %}
+        </div>
+	</div>
+	<script type="text/javascript">
+		$(function() {
+  			$(window).scroll(function() {
+    			$("h1, h2, h3").each(function() {
+      				if ($(window).scrollTop() >= $(this).offset().top) {
+        				var id = $(this).attr('id');
+        				$('.toc-li a').removeClass('toc-active');
+        				$('.toc-li a[href="#' + id + '"]').addClass('toc-active');
+      				}
+    			});
+  			});
+		});
+
+	</script>
+
+{%- endif -%}
+
+
+{{ content }}
+
+{%- if page.contributors -%}
+	<hr>
+	<h4>Contributors</h4>
+	<ul class="list-style-none">
+	{% for contributor in page.contributors %}
+  		<li class="d-inline-block mr-1">
+     	<a href="https://github.com/{{ contributor }}" target="_blank"><img src="https://github.com/{{ contributor }}.png?size=60" width="32" height="32" alt="{{ contributor }}"/></a>
+  		</li>
+	{% endfor %}
+	</ul>
+{%- endif -%}
+

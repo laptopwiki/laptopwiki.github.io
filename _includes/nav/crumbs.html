@@ -1,0 +1,36 @@
+{%- comment -%}
+  {%- include nav/crumbs.html
+        nodes = array -%}
+  outputs breadcrumb navigation links for the nodes, and the title of the
+  current page.
+{%- endcomment -%}
+
+{%- if page.collection != nil and page.collection != "posts" -%}
+  {%- if jtd_collections -%}
+
+        {%- if collection_key == page.collection -%}
+          {%- assign collection_crumb = true -%}
+          {%- assign collection_crumb_link =  page.collection -%}
+          {%- assign collection_crumb_label =  collection_value.name -%}
+        {%- endif -%}
+
+  {%- endif -%}  
+{%- endif -%}
+
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    {%- if collection_crumb == true -%}
+    <li class="breadcrumb-nav-list-item">
+      <a href="/{{ collection_crumb_link }}">{{ collection_crumb_label }}</a>
+    </li>
+    {%- endif -%}
+    {%- for node in include.nodes -%}
+    <li class="breadcrumb-nav-list-item">
+      <a href="{{ node.url | absolute_url }}">{{ node.title }}</a>
+    </li>
+    {%- endfor -%}
+    <li class="breadcrumb-nav-list-item">
+      <span>{{ page.title }}</span>
+    </li>
+  </ol>
+</nav>

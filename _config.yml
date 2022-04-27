@@ -14,23 +14,64 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Laptop Wiki
-description: Open Source Laptop Wiki
-baseurl: "/" # the subpath of your site, e.g. /blog
+description: Extensive documentation for all things laptops.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://laptopwiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
-
-# Regression tests
-# By default, the pages in /docs/tests are excluded when the ste is built.
-# To include them, comment-out the relevant line above.
-# Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
-# include: ["docs/tests/"]
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "guides", its documents reside in the "_guides" directory
+  guides:
+    permalink: "/:collection/:path/"
+    output: true
+  # Define a collection named "laptops", its documents reside in the "_laptops" directory
+  laptops:
+    permalink: "/:collection/:path/"
+    output: true
+  # Define a collection named "contribute", its documents reside in the "_contribure" directory
+  contribute:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "guides" collection
+    guides:
+      # Give the collection a name
+      name: Guides
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    # Reference the "laptops" collection
+    laptops:
+      # Give the collection a name
+      name: Laptops
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+    # Reference the "contribute" collection
+    contribute:
+      # Give the collection a name
+      name: Contribute
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -64,8 +105,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Contribute through GitHub":
-    - "https://github.com/laptopwiki/laptopwiki.github.io"
+  "Laptop Wiki on GitHub":
+    - "//github.com/laptopwiki/laptopwiki.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -74,6 +115,9 @@ aux_links_new_tab: false
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
+# Caching navigation links
+nav_cache: true # default, equivalent to nil
+
 # Footer content
 # appears at the bottom of every page's main content
 
@@ -81,7 +125,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+footer_content: ""
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -98,20 +142,34 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+color_scheme: light
+
+toggle_color_scheme: dark        # default: nil (no toggle button)
+# To display the toggle button only on one page:
+toggle_page_url: "/"               # default: nil (display on all pages)
+# To toggle automatically when the system mode preference changes:
+# toggle_auto_mode: true             # default: nil (manual toggle)
+# To set the button text for toggling and reverting:
+# toggle_text_1: "&rarr; &#x26ab;" # default: "&rarr; Dark Mode"
+# toggle_text_2: "&rarr; &#x26ab;" # default: "&rarr; Light Mode"
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-2709176-10
+ga_tracking: 
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-paginate
 
 kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+
+paginate: 5
+paginate_path: "/news/page:num/"
 
 compress_html:
   clippings: all
@@ -122,3 +180,50 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+# Callouts
+# The title of a callout is optional, and rendered in uppercase.
+# The variables $color-000, $color-100, $color-200, $color-300 are required.
+# Predefined colors: grey-lt, grey-dk, purple, blue, green, yellow, red.
+# The names of callouts need to avoid the class names used in the theme CSS!
+# - avoid btn, highlight, icon, label, main, search, and hyphenated words.
+# Common names for callouts:
+# admonition, attention, caution, danger, error, hint, important, note, tip, warning.
+callouts:
+  admonition:
+    # title:
+    color: grey-lt
+  attention:
+    title: Attention
+    color: purple
+  caution:
+    title: ⚠ Caution
+    color: yellow
+  custom:
+    title: Custom
+    color: pink
+    opacity: 0.3
+  danger:
+    title: Danger
+    color: red
+  error:
+    title: Error
+    color: red
+  highlight:
+    color: yellow
+    opacity: 0.5
+  hint:
+    title: Hint
+    color: grey-dk
+  important:
+    title: Important
+    color: green
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: grey-dk
+  warning:
+    title: 🚫 Warning
+    color: red

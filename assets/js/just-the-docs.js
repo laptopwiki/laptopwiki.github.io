@@ -38,6 +38,7 @@ function initNav() {
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
   const menuButton = document.getElementById('menu-button');
+  const currentTogg = document.getElementById('mode-container');
 
   jtd.addEvent(menuButton, 'click', function(e){
     e.preventDefault();
@@ -45,9 +46,11 @@ function initNav() {
     if (menuButton.classList.toggle('nav-open')) {
       siteNav.classList.add('nav-open');
       mainHeader.classList.add('nav-open');
+      currentTogg.classList.remove("display-none");
     } else {
       siteNav.classList.remove('nav-open');
       mainHeader.classList.remove('nav-open');
+      currentTogg.classList.add("display-none");
     }
   });
 
@@ -119,13 +122,15 @@ function searchLoaded(index, docs) {
   var mainHeader = document.getElementById('main-header');
   var currentInput;
   var currentSearchIndex = 0;
+  //added body query select to fix search in dark mode
+  var body = document.querySelector('body');
 
   function showSearch() {
-    document.documentElement.classList.add('search-active');
+    body.classList.add('search-active');
   }
 
   function hideSearch() {
-    document.documentElement.classList.remove('search-active');
+    body.classList.remove('search-active');
   }
 
   function update() {

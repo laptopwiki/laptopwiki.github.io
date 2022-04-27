@@ -1,0 +1,36 @@
+{% comment %}
+  Parameters:
+    color_scheme
+    toggle_color_scheme
+{% endcomment %}
+@charset "UTF-8";
+{% if site.logo %}
+  $logo: "{{ site.logo | absolute_url }}";
+{% endif %}
+
+:root {
+  --toggle-light: #d8dbe0;
+  --toggle-dark: #3f3d45;
+}
+
+html, html[data-theme="light"] {
+  @import "./support/support";
+  @import "./color_schemes/{{ include.color_scheme }}.scss";
+  @import "./modules";
+  {% include css/custom.scss.liquid %}
+  {% include css/callouts.scss.liquid color_scheme = include.color_scheme %}
+}
+
+html[data-theme="dark"] {
+  @import "./support/support";
+  @import "./color_schemes/{{ include.toggle_color_scheme }}.scss";
+  @import "./modules";
+  {% include css/custom.scss.liquid %}
+  {% include css/callouts.scss.liquid color_scheme = include.toggle_color_scheme %}
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    content: "dark";
+  }
+}
