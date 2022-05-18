@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Adding 60Hz Refresh Rate
+title: Add 60Hz Refresh Rate
 description: "Adds 60Hz to monitors/laptops with no 60Hz refresh rate"
 parent: Basics
 contributors: ['ammarasyad'] 
