@@ -1,3 +1,11 @@
+---
+layout: wiki
+title: Adding 60Hz Refresh Rate
+description: "Adds 60Hz to monitors/laptops with no 60Hz refresh rate"
+parent: Basics
+contributors: ['ammarasyad'] 
+---
+
 # How to add 60Hz refresh rate to my laptop?
 This guide works for any laptop/monitor. Tested on Legion 5 15IMH05H. You can also add unusual refresh rates (69Hz) and resolutions (1920x800), but do it at your own risk. For the purpose of this guide, we will not touch resolution.
 
