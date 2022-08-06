@@ -27,7 +27,7 @@ contributors: ['averyspeedybird, kirakenchin']
 -  Check different resolutions
 -  Take [system image](https://www.youtube.com/watch?v=x9BGn4MivJw) “out of the box”
 -  Remove bloatware (McAfee, etc.)
--  Update Vantage software (if available)
+-  Update Vantage software (if available) or Legion Toolkit (*Highly recommended* due to lower resource usage)
 -  Update bios (check Discord for best current version). However if you don’t have any issue with it, don’t. Don’t fix it if it ain’t broken. [First time users, don’t update Bios]
 -  Update NVIDIA/AMD DGPU driver (check Discord for best current version)
 -  Connect to wifi and run Windows update
