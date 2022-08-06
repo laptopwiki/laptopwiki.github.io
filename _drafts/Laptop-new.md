@@ -1,3 +1,11 @@
+---
+layout: wiki
+title: First Time Checklist
+description: "Detailed new laptop checklist"
+parent: Parent basic
+contributors: ['averyspeedbird, kirakenchin'] 
+---
+
 # First Time Checklist
 ## The ultimate first time checklist guide to help you getting started with your new laptop!
 - Check box for obvious shipping damage
