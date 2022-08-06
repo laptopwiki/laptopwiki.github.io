@@ -63,7 +63,7 @@ contributors: ['averyspeedybird, kirakenchin']
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
 
 
-|  Sharing results | APosting format (e.g.) |
+|  Sharing results | Posting format (e.g.) |
 | ------------- |:-------------:|
 | Device | Legion 5 pro |
 | CPU | 5800H |
