@@ -2,11 +2,13 @@
 layout: wiki
 title: First Time Checklist
 description: "Detailed new laptop checklist"
-parent: basic
-contributors: ['averyspeedbird, kirakenchin'] 
+parent: basics
+contributors: ['averyspeedybird, kirakenchin'] 
 ---
 
 # First Time Checklist
+
+
 ## The ultimate first time checklist guide to help you getting started with your new laptop!
 - Check box for obvious shipping damage
 -  Check laptop for dents and scratches
@@ -16,7 +18,7 @@ contributors: ['averyspeedbird, kirakenchin']
 -  Open and close lid (check hinges) (when setting up windows, don’t connect to wifi, therefore you won’t have to deal with unnecessary microsoft services)
 -  Verify actual specs are what you bought (hwinfo and model number)
 -  Check all keyboard keys multiple hits (enter key)
--  Check for dead pixels (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test)
+-  Check for [dead pixels](https://lcdtech.info/en/tests/dead.pixel.htm) (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test)
 -  Check all ports working (check snugness and fit)
 -  Check profiles and fan speeds (noise)
 -  Check RGB across diff profiles (dark room and well lit)
@@ -48,25 +50,26 @@ contributors: ['averyspeedbird, kirakenchin']
 ## Conditions for Results Comparison  
 
 
--  Mux mode : dGPU (hybrid mode disabled)
--  OC : OFF
--  Power profile : performance
--  Cooling : Back lifted
--  Power supply: plugged-in
--  Temperature Limit: Gen 6: 110c (AMD) ; 100c (Intel) | Gen 7: 95C (AMD) ; 95C (INTEL)
+-  Mux mode | dGPU (hybrid mode disabled)
+-  OC | OFF
+-  Power profile | performance
+-  Cooling | Back lifted
+-  Power supply | plugged-in
+-  Temperature Limit: Gen 6: 110c (AMD) | 100c (Intel) | Gen 7: 95C (AMD) ; 95C (INTEL)
 
 ### Extra
 
+
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
 
-Sharing results – Posting format (e.g.)
-|Device | Legion 5 pro 
-|CPU | 5800H |
-|GPU | RTX 3070 |
-|RAM | 32gb [stock] or [HyperX] |
-|Mux mode | dGPU | OC OFF or ON + applied parameters |
-|Power profile | performance Cooling | Back lifted |
-|Nvidia Driver | 511.23 |
+| Sharing results | Posting format (e.g.)|
+Device | Legion 5 pro 
+CPU | 5800H
+GPU | RTX 3070 
+RAM | 32gb [stock] or [HyperX]
+Mux mode | dGPU | OC OFF or ON + applied parameters
+Power profile | performance Cooling | Back lifted
+Nvidia Driver | 511.23
 
 Enjoy and have fun!
 
