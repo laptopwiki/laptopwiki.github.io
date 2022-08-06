@@ -25,13 +25,12 @@ contributors: ['averyspeedybird, kirakenchin']
 -  Check for backlight bleed
 -  Check trackpad for motion and click feel
 -  Check different resolutions
--  Take system image “out of the box”
+-  Take [system image](https://www.youtube.com/watch?v=x9BGn4MivJw) “out of the box”
 -  Remove bloatware (McAfee, etc.)
 -  Update Vantage software (if available)
 -  Update bios (check Discord for best current version). However if you don’t have any issue with it, don’t. Don’t fix it if it ain’t broken. [First time users, don’t update Bios]
 -  Update NVIDIA/AMD DGPU driver (check Discord for best current version)
 -  Connect to wifi and run Windows update
--  Take [System Image](https://www.youtube.com/watch?v=x9BGn4MivJw)
 -  Charge battery and confirm 100% as start point
 -  Review Discord/Reddit for any new issues experienced by new owners
 -  Install Benchmarking and Hardware info tools
