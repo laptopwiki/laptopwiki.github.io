@@ -57,7 +57,7 @@ contributors: ['averyspeedybird, kirakenchin']
 -  Power supply | plugged-in
 -  Temperature Limit: Gen 6: 110c (AMD) | 100c (Intel) | Gen 7: 95C (AMD) ; 95C (INTEL)
 
-### Extra
+## Extra
 
 
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
