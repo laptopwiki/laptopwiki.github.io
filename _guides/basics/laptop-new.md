@@ -56,7 +56,7 @@ contributors: ['averyspeedybird, kirakenchin']
 | Power profile | performance | 
 | Cooling | Back lifted | 
 | Power supply | plugged-in |
-| Temperature Limit: Gen 6: 110c (AMD) | 100c (Intel) | Gen 7: 95C (AMD) ; 95C (INTEL) |
+| Temperature Limit | Gen 6 110c (AMD) 100c (Intel) : Gen 7 95C (AMD) 95C (INTEL) |
 
 ## Extra
 
