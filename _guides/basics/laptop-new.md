@@ -2,7 +2,7 @@
 layout: wiki
 title: First Time Checklist
 description: "Detailed new laptop checklist"
-parent: basics
+parent: Basics
 contributors: ['averyspeedbird', 'kirakenchin'] 
 ---
 
