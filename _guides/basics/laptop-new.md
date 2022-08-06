@@ -49,7 +49,7 @@ contributors: ['averyspeedybird, kirakenchin']
 ## Conditions for Results Comparison  
 
 
-|  Sharing results | Posting format (e.g.) |
+|  Paramters | Values |
 | ------------- |:-------------:|
 | Mux mode | dGPU (hybrid mode disabled) |
 | OC | OFF |
@@ -64,7 +64,7 @@ contributors: ['averyspeedybird, kirakenchin']
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
 
 
-|  Paramters | Values |
+|  SHaring results | Posting format (e.g) |
 | ------------- |:-------------:|
 | Device | Legion 5 pro |
 | CPU | 5800H |
