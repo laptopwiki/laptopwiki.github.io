@@ -49,12 +49,14 @@ contributors: ['averyspeedybird, kirakenchin']
 ## Conditions for Results Comparison  
 
 
--  Mux mode | dGPU (hybrid mode disabled)
--  OC | OFF
--  Power profile | performance
--  Cooling | Back lifted
--  Power supply | plugged-in
--  Temperature Limit: Gen 6: 110c (AMD) | 100c (Intel) | Gen 7: 95C (AMD) ; 95C (INTEL)
+|  Sharing results | Posting format (e.g.) |
+| ------------- |:-------------:|
+| Mux mode | dGPU (hybrid mode disabled) |
+| OC | OFF |
+| Power profile | performance | 
+| Cooling | Back lifted | 
+| Power supply | plugged-in |
+| Temperature Limit: Gen 6: 110c (AMD) | 100c (Intel) | Gen 7: 95C (AMD) ; 95C (INTEL) |
 
 ## Extra
 
@@ -62,7 +64,7 @@ contributors: ['averyspeedybird, kirakenchin']
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
 
 
-|  Sharing results | Posting format (e.g.) |
+|  Paramters | Values |
 | ------------- |:-------------:|
 | Device | Legion 5 pro |
 | CPU | 5800H |
