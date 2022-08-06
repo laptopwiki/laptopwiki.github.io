@@ -62,14 +62,22 @@ contributors: ['averyspeedybird, kirakenchin']
 
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
 
-| Sharing results | Posting format (e.g.)|
-Device | Legion 5 pro 
-CPU | 5800H
-GPU | RTX 3070 
+| | |
+ |  
+| 
+ | RTX 3070 
 RAM | 32gb [stock] or [HyperX]
 Mux mode | dGPU | OC OFF or ON + applied parameters
 Power profile | performance Cooling | Back lifted
 Nvidia Driver | 511.23
+
+|  Sharing results | APosting format (e.g.) |
+| ------------- |:-------------:|
+| Device | Legion 5 pro |
+| CPU | 5800H |
+| GPU | RTX 3070|
+|RAM | 32gb [stock] or [HyperX] |
+
 
 Enjoy and have fun!
 
