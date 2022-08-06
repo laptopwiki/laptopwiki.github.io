@@ -50,7 +50,7 @@ contributors: ['averyspeedybird, kirakenchin']
 
 
 |  Paramters | Values |
-| ------------- |:-------------:|
+| :-------------: |:-------------:|
 | Mux mode | dGPU (hybrid mode disabled) |
 | OC | OFF |
 | Power profile | performance | 
@@ -65,7 +65,7 @@ Above conditions are only for comparison purpose, feel free to run bm with other
 
 
 |  SHaring results | Posting format (e.g) |
-| ------------- |:-------------:|
+| :-------------: |:-------------:|
 | Device | Legion 5 pro |
 | CPU | 5800H |
 | GPU | RTX 3070|
