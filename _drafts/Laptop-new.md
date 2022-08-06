@@ -63,5 +63,3 @@ Sharing results – Posting format (e.g.)
 Enjoy and have fun!
 
 [Source](https://rentry.org/laptopsetupguide)
-
- --- Speedbird001#4677
