@@ -4,11 +4,9 @@ title: First Time Checklist
 description: "Detailed new laptop checklist"
 parent: Basics
 contributors: ['averyspeedybird', 'kirakenchin'] 
-
 ---
 
 # First Time Checklist
-
 
 ## The ultimate first time checklist guide to help you getting started with your new laptop!
 - Check box for obvious shipping damage
@@ -65,7 +63,7 @@ contributors: ['averyspeedybird', 'kirakenchin']
 Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
 
 
-|  SHaring results | Posting format (e.g) |
+|  Sharing results | Posting format (e.g) |
 | :-------------: |:-------------:|
 | Device | Legion 5 pro |
 | CPU | 5800H |
