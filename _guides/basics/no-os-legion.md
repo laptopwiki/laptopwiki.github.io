@@ -22,23 +22,23 @@ Basic Guide to setup Legion without an OS
   - if the Dolby Vision still doesn’t start, then download the file “PQCONFIG.DV” and paste it in System32/spool/drivers/color
     “PQCONFIG.DV” file
     - [Legion 5 Pro 2021 (AMD)](https://drive.google.com/file/d/1IW_YgBNasq5NOHy2frQgBcmcMERsfdI5/view?usp=sharing){:target="_blank"}
-    - [legion 5i Pro 2021 (Intel), Legion 7 2021 (Intel)](https://laptopwiki.eu/wp-content/uploads/2022/02/PQCONFIG.zip){:target="_blank"}
+    - [legion 5i Pro 2021 (Intel), Legion 7i 2021 (Intel)](https://laptopwiki.eu/wp-content/uploads/2022/02/PQCONFIG.zip){:target="_blank"}
     - [Legion 5 2021 (AMD)](https://drive.google.com/file/d/1A8iFxXSb2jBE88FB_c1XR1gAKOWjFGM7/view?usp=sharing){:target="_blank"}
-    - [Legion 5 2021 (Intel)](https://drive.google.com/file/d/18uoXAsuglse9EHDip2aM40IiplGv8gVs/view?usp=sharing){:target="_blank"}
+    - [Legion 5i 2021 (Intel)](https://drive.google.com/file/d/18uoXAsuglse9EHDip2aM40IiplGv8gVs/view?usp=sharing){:target="_blank"}
 - Install (rename the extension to .appx) the [HEVC Video Extensions](https://codecpack.co/download/hevc-video-extensions.html%20or%20open%20ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq){:target="_blank"} for Dolby Vision
 - Install the factory [Lenovo power profiles](https://laptopwiki.eu/wp-content/uploads/2021/11/LegionPowerPlan.zip){:target="_blank"}
 - Install [Factory ICC profiles](https://newsupport.lenovo.com.cn/driveList.html?fromsource=driveList&selname=Lenovo%20Legion%20R9000P%202021H){:target="_blank"} for your device display (Control Panel/Color management)
 - (optional) Install these custom calibrated profiles
-  - [Custom Legion 5 Pro/ Legion 7 (AMD)](https://laptopwiki.eu/wp-content/uploads/2021/11/Legion_5_Pro.icm_.zip){:target="_blank"}
+  - [Custom Legion 5 Pro / Legion 7 (AMD)](https://laptopwiki.eu/wp-content/uploads/2021/11/Legion_5_Pro.icm_.zip){:target="_blank"}
   - [Custom Legion 5 (21) 165Hz (AMD)](https://drive.google.com/file/d/1zDYmPAPtJv65NMO0AIRitGUFCZZG3GbO/view?usp=sharing){:target="_blank"}
-  - [Legion 7 (Intel)](https://pixeldrain.com/u/BeLREnei){:target="_blank"}
+  - [Legion 7i (Intel)](https://pixeldrain.com/u/BeLREnei){:target="_blank"}
 - Install the [Nahimic app](https://www.microsoft.com/en-us/p/nahimic/9n36ppmp8s23?activetab=pivot:overviewtab){:target="_blank"} for improving the sound
 
 - (Optional) Install the recommended Nvidia driver for your GPU from the Nvidia site, we don't recommend using Geforce Experience due to the issues it causes in many games (check [discord server](https://discord.com/channels/819491422327406592/938382715709968404/998990738308214894){:target="_blank"} for a recommended driver)
 - Here is the archive with all the Legion 5 Pro drivers that are provided by Lenovo for the models delivered with Windows installed
-  - [Legion 5 pro/7 (AMD)](https://drive.google.com/file/d/1LKJRfnoEZwiY7F6Pnwy-LJ1sUcDZHEzg/view?usp=sharing){:target="_blank"}
-  - [Legion 5 pro (Intel)](https://drive.google.com/file/d/1zDYmPAPtJv65NMO0AIRitGUFCZZG3GbO/view?usp=sharing){:target="_blank"}
-  - [Legion 7 (Intel)](https://pixeldrain.com/u/BeLREnei){:target="_blank"}
+  - [Legion 5 Pro / Legion 7 (AMD)](https://drive.google.com/file/d/1LKJRfnoEZwiY7F6Pnwy-LJ1sUcDZHEzg/view?usp=sharing){:target="_blank"}
+  - [Legion 5i Pro (Intel)](https://drive.google.com/file/d/1zDYmPAPtJv65NMO0AIRitGUFCZZG3GbO/view?usp=sharing){:target="_blank"}
+  - [Legion 7i (Intel)](https://pixeldrain.com/u/BeLREnei){:target="_blank"}
 
 
 Now enjoy your no OS Legion with Legion experience as others!
