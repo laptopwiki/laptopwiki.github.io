@@ -20,7 +20,7 @@ discord: ['ClemFab#0741', 'mind12#3390', 'nibi030#0077', 'Kazmir#7360', 'Kaobalt
 - Install [Lenovo Hotkey](https://www.microsoft.com/en-us/p/lenovo-hotkeys/9pcmmnb260tx) from the MS Store
 - Install Dolby Vision from the MS Store (if your screen supports it)
   - if the Dolby Vision still doesn’t start, then download the file “PQCONFIG.DV” and paste it in System32/spool/drivers/color
-    - “PQCONFIG.DV” file
+    “PQCONFIG.DV” file
     - [Legion 5 Pro 2021 (AMD)](https://drive.google.com/file/d/1IW_YgBNasq5NOHy2frQgBcmcMERsfdI5/view?usp=sharing)
     - [legion 5i Pro 2021 (Intel), Legion 7 2021 (Intel)](https://laptopwiki.eu/wp-content/uploads/2022/02/PQCONFIG.zip)
     - [Legion 5 2021 (AMD)](https://drive.google.com/file/d/1A8iFxXSb2jBE88FB_c1XR1gAKOWjFGM7/view?usp=sharing)
