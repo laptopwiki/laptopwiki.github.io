@@ -1,8 +1,9 @@
 ---
 layout: wiki
 title: First Time Checklist
-description: "Detailed new laptop checklist"
-parent: Basics
+description: "A checklist to help you with your brand new laptop"
+parent: getting-started
+grand parent: basics
 contributors: ['averyspeedybird', 'kirakenchin'] 
 ---
 
