@@ -6,7 +6,7 @@ parent: getting-started
 grand-parent: basics
 contributors: 
 discord: ['ClemFab#0741', 'mind12#3390', 'nibi030#0077', 'Kazmir#7360', 'Kaobalt#0001'] 
- ---
+---
 
 # How to set up your no OS Legion
 
