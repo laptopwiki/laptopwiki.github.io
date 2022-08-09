@@ -1,7 +1,9 @@
 ---
 layout: wiki
 title: Laptop Stress Test Guide
-parent: Basics
+description: "aptop Stress Test Guide"
+parent: Getting Started
+grand parent: Basics
 contributors: ["basmal","nonkerdoob"]
 ---
 
