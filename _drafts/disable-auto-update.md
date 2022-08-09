@@ -10,8 +10,9 @@ discord: ⫶ ['ℜ𝔲𝔦𝔫 ♡#9472']
 
 # Disable Automatic Windows Updates
 
->Disclaimer: Welcome to Manual Windows Updates. From now on, windows wont sneaky update your laptop without your permission. Since this is manual update, the End-User needs to check for updates manually everytime.
->_A well rewarded hassle in the end_
+{: .warning} 
+Disclaimer: Welcome to Manual Windows Updates. From now on, windows wont sneaky update your laptop without your permission. Since this is manual update, the End-User needs to check for updates manually everytime.
+_A well rewarded hassle in the end_
 
 ## Windows 11 Pro
 
@@ -19,7 +20,7 @@ discord: ⫶ ['ℜ𝔲𝔦𝔫 ♡#9472']
 
 
 - Open Windows Search and type in ``regedit`` or ``registry editor``, right click on it and open it as administrator
-- Navigate towards
+- Navigate to
 ```
 HKEY_LOCAL_MACHINE –> SOFTWARE –> Policies –> Microsoft –> Windows –> WindowsUpdate –> AU
 ```
@@ -77,6 +78,7 @@ For Windows 10 HOME users, following this [guide](https://www.youtube.com/watch?
 {: .warning}
 DO NOT FORGET TO REGULARLY (once a month – recommended) TO HIT THE **CHECK FOR UPDATES** BUTTON! – We are not responsible for your problems if you do not bother updating for a year and then you get a ton of updates waiting when you press check. 
 
->This method is for preventing Microsoft from pushing you broken updates for your Windows 10/11, **BIOS Updates** and **GPU Driver** updates automatically causing new issues everyday. Before every time you decide to hit ``Check for Updates” it is recommended to run [WUShowHide](https://www.majorgeeks.com/files/details/wushowhide.html) by clicking “Hide Updates” and if it scans and finds anything called **Firmware/BIOS** or **Display Driver** (AMD or NVIDIA) it is recommended to check the box for them and hide them to prevent any further conflicts that might appear. Windows installing them will only bring issues or overwrite your current drivers. Check this video for help with Wushowhide.
+{: .highlight}
+This method is for preventing Microsoft from pushing you broken updates for your Windows 10/11, **BIOS Updates** and **GPU Driver** updates automatically causing new issues everyday. Before every time you decide to hit ``Check for Updates`` it is recommended to run [WUShowHide](https://www.majorgeeks.com/files/details/wushowhide.html) by clicking “Hide Updates” and if it scans and finds anything called **Firmware/BIOS** or **Display Driver** (AMD or NVIDIA) it is recommended to check the box for them and hide them to prevent any further conflicts that might appear. Windows installing them will only bring issues or overwrite your current drivers. Check this video for help with Wushowhide.
 
-_Bid farewell to borken updates_
+_Bid farewell to broken updates_
