@@ -55,8 +55,9 @@ look for the **Configure Automatic Updates** double click on it and set it to ``
 - For Windows 11 HOME users, following this [guide](https://www.youtube.com/watch?v=7wkgwEhtqdI){:target="_blank"} will help you add the Group Policy Editor to your windows and you will be able to do the above guide just like the Pro users.
 
 
-### Windows 10 Pro
+## Windows 10 Pro
 
+### Group Policy Editor
 
 - Type in the windows search box **gpedit.msc** (Group Policy Editor), open it as administrator by right clicking on it and proceed the following route
 ```
