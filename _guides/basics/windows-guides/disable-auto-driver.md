@@ -2,8 +2,8 @@
 layout: wiki
 title: Disable Automatic Driver Updates
 description: "A simple but effective way to disable windows 11 Automatic Windows Driver Updates"
-parent: windows-guides
-grand parent: basics
+parent: Windows Guides
+grand parent: Basics
 contributors: ['kirakenchin']
 discord: ['⫶ ℜ𝔲𝔦𝔫 ♡#9472']
 ---
