@@ -15,6 +15,12 @@ Creating a fork is fairly simple, just look for the fork button and click on it,
 
 A pull request submits your edits for review before it is merged with the main repo.
 
+## Creating the post
+
+Look for ``_drafts`` folder under the main branch of your fork. Open it and click ``Add New File``. Name the file something short and appropriate and use the ``.md`` file format.
+
+Write your post in markdown. You can use [Markdown Cheat Sheet]() for help in formatting your content. The sub-headings you create will act as the in page navigation for the content.
+
 ## Navigation Structure
 
 This wiki is categorized by sections, pages and its children. Sections are top level classification grouping similar posts together. Pages display the posts submitted to this wiki, they can have child pages.
@@ -63,18 +69,14 @@ You need to navigate to the appropriate directory in the repo. If it is a child 
 
 In the above sample, we know the post belongs in ``Laptops`` section, and that it is a child of ``Zephyrus G14`` which in turn is a child of ``Asus``. We navigate to ``_laptops/Asus/Zephyrus-G14/`` to add our new entry.
 
-To make a directory for the child pages, preceed the name of your post with the parent page's file name. If the directory ``Zephyrus-G14`` doesn't exist we can create it by naming the file ``Zephyrus-G14/2020.md``.
+To make a directory for the child pages, preceed the name of your post with the parent page's file name. The Zephurys G14 page has the file name ``Zephyrus-G14.md``, to create a child directory for it, we can do so by name our file ``Zephyrus-G14/2020.md``.
 
-## Creating the file
+## Configuring the post
 
-While in the directory click on ``Create New File``. An empty text editor courtesy of Gihub will open. Name the file a shorter version of the post title. Keep in mind, this act as the permalink too.
-
-## Writing the post
-
-Copy this template to the editor.
+Copy the front matter template above your main content.
 
 #### Template
-```markdown
+```yaml
 ---
 layout: wiki
 title: Post Title
@@ -84,6 +86,10 @@ grand-parent: grand-parent title
 ancestor: ancestor title
 contributors: ['github username'] 
 ---
+```
+Add title and if needed, Reference and footnotes section.
+
+```markdown
 
 # Post Title
 
@@ -95,8 +101,7 @@ Footnotes
 
 ```
 
-Start writing or paste your pre - edited content between ``# Post Title`` and ``# Reference``. Link your references under the References heading with the syntax ``[Example](https://example.com){:target="_blank"}``. You can use [Markdown Cheat Sheet]() for help in formatting your content.
-
+Link your references under the References heading with the syntax ``[Example](https://example.com){:target="_blank"}``. 
 
 ## Cleanup
 
