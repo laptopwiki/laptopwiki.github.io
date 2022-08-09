@@ -1,9 +1,9 @@
 ---
 layout: wiki
 title: Disable Automatic Windows Update
-description: "A simple and effective way to disable automatic windows update"
+description: "A simple and effective way to disable automatic windows updates"
 parent: Windows Guides
-grand parent: Basics
+grand-parent: Basics
 contributors: ['kirakenchin']
 discord: ⫶ ['ℜ𝔲𝔦𝔫 ♡#9472']
 ---
