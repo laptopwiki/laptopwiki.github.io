@@ -53,6 +53,8 @@ look for the **Configure Automatic Updates** double click on it and set it to ``
 
 ![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-10.png)
 
+- Intentional Error for kira to find and review.
+
 - For Windows 11 HOME users, following this [guide](https://www.youtube.com/watch?v=7wkgwEhtqdI){:target="_blank"} will help you add the Group Policy Editor to your windows and you will be able to do the above guide just like the Pro users.
 
 
