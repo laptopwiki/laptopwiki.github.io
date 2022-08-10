@@ -10,8 +10,7 @@ discord: ⫶ ['ℜ𝔲𝔦𝔫 ♡#9472']
 
 # Disable Automatic Windows Updates
 
-{: .warning} 
-Disclaimer: Welcome to Manual Windows Updates. From now on, windows wont sneaky update your laptop without your permission. Since this is manual update, the End-User needs to check for updates manually everytime.
+**Disclaimer**: Welcome to Manual Windows Updates. From now on, windows wont sneaky update your laptop without your permission. Since this is manual update, the End-User needs to check for updates manually everytime.
 _A well rewarded hassle in the end_
 
 ## Windows 11 Pro
@@ -53,8 +52,6 @@ look for the **Configure Automatic Updates** double click on it and set it to ``
 
 ![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-10.png)
 
-- Intentional Error for kira to find and review.
-
 - For Windows 11 HOME users, following this [guide](https://www.youtube.com/watch?v=7wkgwEhtqdI){:target="_blank"} will help you add the Group Policy Editor to your windows and you will be able to do the above guide just like the Pro users.
 
 
@@ -80,7 +77,7 @@ For Windows 10 HOME users, following this [guide](https://www.youtube.com/watch?
 {: .warning}
 DO NOT FORGET TO REGULARLY (once a month – recommended) TO HIT THE **CHECK FOR UPDATES** BUTTON! – We are not responsible for your problems if you do not bother updating for a year and then you get a ton of updates waiting when you press check. 
 
-{: .highlight}
+### Note
 This method is for preventing Microsoft from pushing you broken updates for your Windows 10/11, **BIOS Updates** and **GPU Driver** updates automatically causing new issues everyday. Before every time you decide to hit ``Check for Updates`` it is recommended to run [WUShowHide](https://www.majorgeeks.com/files/details/wushowhide.html) by clicking “Hide Updates” and if it scans and finds anything called **Firmware/BIOS** or **Display Driver** (AMD or NVIDIA) it is recommended to check the box for them and hide them to prevent any further conflicts that might appear. Windows installing them will only bring issues or overwrite your current drivers. Check this video for help with Wushowhide.
 
 _Bid farewell to broken updates_
