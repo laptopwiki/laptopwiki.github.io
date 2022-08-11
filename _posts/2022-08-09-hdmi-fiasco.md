@@ -3,6 +3,7 @@ layout: post
 title: HDMI 2.1 Fiasco
 description: "Recent News clearing the doubts about HDMI 2.1 in Lenovo Legion Laptops"
 tags: ['Legion','HDMI','HDMI 2.1','Standards']
+image: https://cdn.discordapp.com/attachments/960201425063936033/960201584900452362/unknown.png
 contributors: ['kirakenchin']
 discord: ['Rowdyhorse4#0554']
 ---
