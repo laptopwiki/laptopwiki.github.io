@@ -5,6 +5,6 @@ layout: default
 <span class="post-date">{{ page.date | date: "%-d %B %Y" }}</span>
 <hr>
   {%- if page.image != nil -%}
-    <img src="{{ page.image }}"/>
+    <img src="{{ page.image }}" width="100%"/>
   {%- endif -%}
 {{ content }}
