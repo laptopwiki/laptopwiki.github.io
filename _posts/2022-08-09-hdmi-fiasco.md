@@ -1,7 +1,8 @@
 ---
-layout: wiki
-title: HDMI Fiasco
+layout: post
+title: HDMI 2.1 Fiasco
 description: "Recent News clearing the doubts about HDMI 2.1 in Lenovo Legion Laptops"
+tags: ['Legion','HDMI','HDMI 2.1','Standards']
 contributors: ['kirakenchin']
 discord: ['Rowdyhorse4#0554']
 ---
@@ -32,29 +33,43 @@ Dithering is when the computer artificially raises the bit depth to 10-bit via s
 
 Setting your Display via Windows Settings, your Windows settings will automatically allow 4k120hz when connected to a compatible HDMI 2.1 4K120hz tv. VRR/G-Sync will also be available in this mode. In order to allow this however with the Legion's HDMI limited bandwidth, 10-bit Color depth has to be sacrificed. To compensate, Windows/Nvidia will use Dithering to the signal to improve color accuracy. Using some RAW 4k DSLR images and Movies, I did a double blind test for Everyday Use with two people who are not knowledgeable about bit depth and they could not differentiate the color accuracy. However, this is using everyday software. Content creators using specialized software will still be able to tell the difference most likely.
 
-![4k120 @ 8Bit](https://cdn.discordapp.com/attachments/960201425063936033/960202203354787861/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/960201425063936033/960202203354787861/unknown.png)
+*4k120 @ 8Bit*
 
-![Gsync-Support](https://cdn.discordapp.com/attachments/960201425063936033/960202252491063326/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/960201425063936033/960202252491063326/unknown.png)
+*Gsync-Support*
 
 Going down to 4K60Hz should allow windows automatically revert to 10-bit Color depth as this is just a question of bandwidth limitation. However there is a problem with this that will be discussed later on.
 
-![4k60 with 10bit support](https://cdn.discordapp.com/attachments/960201425063936033/960202566745079888/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/960201425063936033/960202566745079888/unknown.png)
+*4k60 with 10bit support*
 
 Likewise, going to any lower resolution in 120hz mode should also let windows automatically revert to 10-bit color depth.
 
-![QHD120@10Bit](https://cdn.discordapp.com/attachments/960201425063936033/960202748442337370/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/960201425063936033/960202748442337370/unknown.png)
+*QHD120@10Bit*
 
-![FHD120@10bit](https://cdn.discordapp.com/attachments/960201425063936033/960202788359524402/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/960201425063936033/960202788359524402/unknown.png)
+*FHD120@10bit*
 
 ## The Caveat with 10Bit in lower Resolution
 
 This is where the problem arises, although i haven't verified if this is limited to an LG TV issue or not. It's a software issue. Sometimes when you just plug in the TV or restart the laptop, The Signal is going to be locked to 8-bit Dithering mode despite being in lower than 4k Resolutions. When it is locked, the Signal output will be stuck in 4K120hz 8-bit despite having 2K selected as shown in the image.
 
-![QHD120 stuck in 8bit](https://laptopwiki.eu/wp-content/uploads/2022/04/unknown-1-990x1024.png)
+{: .center}
+![image](https://laptopwiki.eu/wp-content/uploads/2022/04/unknown-1-990x1024.png)
+*QHD120 stuck in 8bit*
 
 This can lead to worse resolution quality (Due to upscaling) and may also contribute to misconceptions about Lenovo's HDMI's abilities and disabilities. Checking via Nvidia Control Panel would leave bit depth option greyed out.
 
-![greyed out bit depth in NVCP](https://cdn.discordapp.com/attachments/960201425063936033/960204084592406558/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/960201425063936033/960204084592406558/unknown.png)
+*Greyed out bit depth in NVCP*
 
 So far, the only solution I have found is to select a lower resolution in 60hz in the Nvidia Control panel, select use default Color settings at first. this would unlock the bit depth color mode.
 
@@ -76,6 +91,5 @@ I read/was informed at some point that the **HDMI bandwidth on Legion laptops is
 
 I hear that using a lower Chroma Subsampling (YCbCR420) may unlock 4k120hz at 10-bit, I cannot test this as I have no monitors or TVs that would allow Nvidia control panel to use YCbCR420. the LG only accepts YCbCR444 at minimum and my FHD monitor only allows YCbCR422. If someone can verify this, it would be great.
 
-{: .warning}Disclaimer
-
+{: .caution}
 The obtained results are  a result of my own testing and knowledge/research of HDMI as a heavy audio visual enthusiast. If there are people who are experts in the field, feel free to correct me or discuss it with me if there are mistakes.
