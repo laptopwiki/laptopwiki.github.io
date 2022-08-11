@@ -16,11 +16,10 @@ Bios tools enable you to do basic ``backup / dump/ restore`` if you DON'T want t
 
 - Extract it somewhere
 - The do the following:
-    a) To dump your current BIOS, go to Scripts and run _dump_BIOS.Ink
-    b) To backup all your Lenovo Variables, go to Scripts and run ``_backup.cmd`` as admin. A log file will be opened in notepad to monitor progress
-    c) To backup all your Lenovo Variables, go to Scripts and run _backup.cmd as admin. A log file will be opened in notepad to monitor progress
+1. To dump your current BIOS, go to Scripts and run _dump_BIOS.Ink
+2. To backup all your Lenovo Variables, go to Scripts and run ``_backup.cmd`` as admin. A log file will be opened in notepad to monitor progress
 - Your info should be backed up and stored in **bios_backup / LVAR_backup** folder
-- Save them in the cloud just in case you need it someday (optional) If step ``_b)`` has been done and you lost your board info due to whatever reason, go to ``Scripts`` and run ``_restore.cmd`` as admin and a log file will be open in notepad to tell the progress
+- Save them in the cloud just in case you need it someday (optional) If step ``2`` has been done and you lost your board info due to whatever reason, go to ``Scripts`` and run ``_restore.cmd`` as admin and a log file will be open in notepad to tell the progress
 - Download the bios tools from [here](https://laptopwiki.eu/wp-content/uploads/2021/11/BIOS_tools.7z)
 
 {: .Tip}
