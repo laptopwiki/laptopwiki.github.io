@@ -22,7 +22,7 @@ In order to recover the default values, we will use a command line based develop
 
 After checking it, now you can start running the commands. (For this, you need to know your default values) (RUN THEM ONE BY ONE!)
 
-{:.Tip}In the following commands, make sure you have a 64-Bit OS. If you have a 32 Bit system, then use the 32 Bit version of the "Exe Commands", Example: **LvarWin32V229.exe /w /pjn /c "LNVNB161216"**
+{: .Tip}In the following commands, make sure you have a 64-Bit OS. If you have a 32 Bit system, then use the 32 Bit version of the "Exe Commands", Example: **LvarWin32V229.exe /w /pjn /c "LNVNB161216"**
 
 - ``LvarWin64V229.exe /w /pjn /c "LNVNB161216"``
 - ``LvarWin64V229.exe /w /pn2 /c "LNVNB161216"`` (_For the motherboard model, it's same on all Legion's_)
