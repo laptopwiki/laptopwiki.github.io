@@ -5,7 +5,7 @@ description: "Basic bios tools to backup / dump/ restore your bios incase of a b
 parent: Bios
 grand_parent: General
 contributors:
-discord: pppig233666#9264
+discord: ['pppig233666#9264']
 ---
 
 # Basic Bios Tools
