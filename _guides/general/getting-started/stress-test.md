@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Laptop Stress Test Guide
-description: "aptop Stress Test Guide"
+description: "Laptop Stress Test Guide"
 parent: Getting Started
 grand_parent: General
 contributors: ["basmal","nonkerdoob"]
@@ -14,8 +14,8 @@ Stress tests are fixed synthetic load which will maximize the heat generation of
 Either follow written tutorial below or [this video tutorial](https://youtu.be/J4s3ghSNj8Q)
 
 ## Download Links
-[HWiNFO](https://hwinfo.com/) ([Direct Link](https://www.fosshub.com/HWiNFO.html?dwl=hwi_716.exe))  
-[Aida64](https://aida64.com/)  ([Direct Link](https://download.aida64.com/aida64extreme660.exe))
+[HWiNFO](https://hwinfo.com/){:target="_blank"} ([Direct Link](https://www.fosshub.com/HWiNFO.html?dwl=hwi_716.exe){:target="_blank"})  
+[Aida64](https://aida64.com/){:target="_blank"}  ([Direct Link](https://download.aida64.com/aida64extreme660.exe){:target="_blank"})
 
 ## Instructions
 ### Setting Up Aida64
@@ -53,6 +53,6 @@ You must show these information when you take screenshot of HWiNFO, otherwise yo
 
 # Submitting
 you can send your screenshots to -  
-[Dave2D Discord server](https://discord.com/invite/dave2d) > #laptops-specific channels   
-[SuggestALaptop Discord server](https://discord.com/invite/q9UwXY6)  > #benchmarks channel  
-[SuggestALaptop Form](https://docs.google.com/forms/d/e/1FAIpQLSdpFyLCazq49oHV2GcGqqqACVtV4kH5PADvWM3lvQm8S9sDEA/)
+[Dave2D Discord server](https://discord.com/invite/dave2d){:target="_blank"} > #laptops-specific channels   
+[SuggestALaptop Discord server](https://discord.com/invite/q9UwXY6){:target="_blank"}  > #benchmarks channel  
+[SuggestALaptop Form](https://docs.google.com/forms/d/e/1FAIpQLSdpFyLCazq49oHV2GcGqqqACVtV4kH5PADvWM3lvQm8S9sDEA/){:target="_blank"}
