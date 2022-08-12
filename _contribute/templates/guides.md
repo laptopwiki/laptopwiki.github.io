@@ -15,8 +15,8 @@ contributors: ['nonkerdoob']
 
 # References
 (reference links and footnotes)
-
 ```
+
 ## Front Matter
 
 ```markdown
@@ -31,6 +31,7 @@ image: https://image.url
 contributors: ['github_username','github_username'] 
 ---
 ```
+
 ## Full template
 
 ```markdown
@@ -51,5 +52,6 @@ contributors: ['github_username','github_username']
 # References
 (reference links and footnotes)
 ```
+
 #### Sample
 Check [Zephyrus G14 Entry](https://github.com/laptopwiki/laptopwiki.github.io/blob/main/_laptops/asus/zephyrus-g14/2020.md?plain=1){:target="_blank"}
