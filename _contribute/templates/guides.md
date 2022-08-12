@@ -1,11 +1,11 @@
 ---
 layout: wiki
-title: Wiki
+title: Guides
 description: "Template for Wiki submissions"
 parent: Templates
 contributors: ['nonkerdoob'] 
 ---
-# Wiki Entry
+# Guides
 
 ## Content
 
