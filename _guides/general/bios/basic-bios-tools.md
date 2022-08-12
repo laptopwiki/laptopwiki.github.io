@@ -2,8 +2,8 @@
 layout: wiki
 title: Basic Bios Tools
 description: "Basic bios tools to backup / dump/ restore your bios incase of a bios failure"
-parent: Bios Guides
-grand-parent: Basics
+parent: Bios
+grand_parent: General
 contributors:
 discord: pppig233666#9264
 ---

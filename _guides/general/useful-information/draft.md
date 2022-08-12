@@ -3,7 +3,7 @@ layout: wiki
 title: Draft
 description: ""
 parent: Useful Information
-grand parent: Basics
+grand_parent: General
 contributors: ['ammarasyad'] 
 ---
 

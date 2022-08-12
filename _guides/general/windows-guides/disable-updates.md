@@ -3,7 +3,7 @@ layout: wiki
 title: Disable Automatic Windows Update
 description: "A simple and effective way to disable automatic windows updates"
 parent: Windows Guides
-grand-parent: Basics
+grand_parent: General
 contributors: ['kirakenchin']
 discord: ⫶ ['ℜ𝔲𝔦𝔫 ♡#9472']
 ---

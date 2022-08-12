@@ -1,9 +1,10 @@
 ---
 layout: wiki
-title: Bios Guide
+title: Bios
 toc_content: false
-parent: Basics
-grand-parent: Legion
+parent: General
+
 ---
 
 # Bios Guide
+ 

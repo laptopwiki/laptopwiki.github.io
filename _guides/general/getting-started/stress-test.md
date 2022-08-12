@@ -3,7 +3,7 @@ layout: wiki
 title: Laptop Stress Test Guide
 description: "aptop Stress Test Guide"
 parent: Getting Started
-grand parent: Basics
+grand_parent: General
 contributors: ["basmal","nonkerdoob"]
 ---
 

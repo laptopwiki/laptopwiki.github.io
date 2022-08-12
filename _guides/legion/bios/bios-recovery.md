@@ -1,15 +1,14 @@
 ---
 layout: wiki
 title: Bios Recovery
-description: "Recovering OS keys/serial from old Bios with a programmer"
-parent: Bios Guides
-grand-parent: Basics
-ancestor: Legion
+description: "Recovering bricked BIOS in Legions without a backup"
+parent: Bios
+grand_parent: Legion
 contributors:
 discord: ['LABØ!#5022']
 ---
 
-# Recovering OS keys/serial numbers from old BIOS
+# Recovering bricked BIOS in Legions without a backup ROM
 
 ## My Legion Laptop BIOS is screwed up and I don't have a BIOS backup, how can I try to restore it?
 
