@@ -4,8 +4,9 @@ title: Bios Recovery
 description: "Recovering OS keys/serial from old Bios with a programmer"
 parent: Bios Guides
 grand-parent: Basics
+ancestor: Legion
 contributors:
-discord: LABØ!#5022
+discord: ['LABØ!#5022']
 ---
 
 # Recovering OS keys/serial numbers from old BIOS
