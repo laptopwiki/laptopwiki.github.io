@@ -28,7 +28,7 @@ parent: Title from parent entry
 grand_parent: Title from Grand Parent entry
 ancestor: Title from a unique Ancestor Entry
 image: https://image.url
-contributors: ['github username','github_username'] 
+contributors: ['github_username','github_username'] 
 ---
 ```
 ## Full template
@@ -38,11 +38,11 @@ contributors: ['github username','github_username']
 layout: wiki
 title: Post Title
 description: "Description"
-parent: Parent title
-grand_parent: grand-parent title
-ancestor: ancestor title
+parent: Title from parent entry
+grand_parent: Title from Grand Parent entry
+ancestor: Title from a unique Ancestor Entry
 image: https://image.url
-contributors: ['github username','github_username] 
+contributors: ['github_username','github_username'] 
 ---
 
 # Title heading
