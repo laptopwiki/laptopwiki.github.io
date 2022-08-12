@@ -11,7 +11,7 @@ contributors: ['ammarasyad']
 This guide works for any laptop/monitor. Tested on Legion 5 15IMH05H. You can also add unusual refresh rates (69Hz) and resolutions (1920x800), but do it at your own risk. For the purpose of this guide, we will not touch resolution.
 
 ## Download
-Download CRU from this link: [cru-1.5.1.zip](https://www.monitortests.com/download/cru/cru-1.5.1.zip)
+Download CRU from this link: [cru-1.5.1.zip](https://www.monitortests.com/download/cru/cru-1.5.1.zip){:target="_blank"}
 
 
 Extract the zip file somewhere, and then open the extracted folder and open `CRU.exe`.

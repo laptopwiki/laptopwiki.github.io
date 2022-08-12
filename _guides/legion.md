@@ -1,8 +1,7 @@
 ---
 layout: wiki
-title: Basics
-nav_order: 1
+title: Legion
 toc_content: false
 ---
 
-# Basics
+# Legion Guides

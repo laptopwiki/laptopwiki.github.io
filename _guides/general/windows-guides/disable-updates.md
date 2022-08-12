@@ -3,7 +3,7 @@ layout: wiki
 title: Disable Automatic Windows Update
 description: "A simple and effective way to disable automatic windows updates"
 parent: Windows Guides
-grand-parent: Basics
+grand_parent: General
 contributors: ['kirakenchin']
 discord: ⫶ ['ℜ𝔲𝔦𝔫 ♡#9472']
 ---
@@ -78,6 +78,6 @@ For Windows 10 HOME users, following this [guide](https://www.youtube.com/watch?
 DO NOT FORGET TO REGULARLY (once a month – recommended) TO HIT THE **CHECK FOR UPDATES** BUTTON! – We are not responsible for your problems if you do not bother updating for a year and then you get a ton of updates waiting when you press check. 
 
 ### Note
-This method is for preventing Microsoft from pushing you broken updates for your Windows 10/11, **BIOS Updates** and **GPU Driver** updates automatically causing new issues everyday. Before every time you decide to hit ``Check for Updates`` it is recommended to run [WUShowHide](https://www.majorgeeks.com/files/details/wushowhide.html) by clicking “Hide Updates” and if it scans and finds anything called **Firmware/BIOS** or **Display Driver** (AMD or NVIDIA) it is recommended to check the box for them and hide them to prevent any further conflicts that might appear. Windows installing them will only bring issues or overwrite your current drivers. Check this video for help with Wushowhide.
+This method is for preventing Microsoft from pushing you broken updates for your Windows 10/11, **BIOS Updates** and **GPU Driver** updates automatically causing new issues everyday. Before every time you decide to hit ``Check for Updates`` it is recommended to run [WUShowHide](https://www.majorgeeks.com/files/details/wushowhide.html){:target="_blank"} by clicking “Hide Updates” and if it scans and finds anything called **Firmware/BIOS** or **Display Driver** (AMD or NVIDIA) it is recommended to check the box for them and hide them to prevent any further conflicts that might appear. Windows installing them will only bring issues or overwrite your current drivers. Check this video for help with Wushowhide.
 
 _Bid farewell to broken updates_

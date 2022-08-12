@@ -2,7 +2,8 @@
 layout: wiki
 title: Getting Started
 toc_content: false
-parent: Basics
+nav_order: 1
+parent: General
 ---
 
 # Getting Started
