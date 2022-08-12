@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Bios Recovery
-description: "Recovering bricked BIOS in Legions without a backup"
+description: "Recovering bricked BIOS in Legions without a backup ROM"
 parent: Bios
 grand_parent: Legion
 contributors:
