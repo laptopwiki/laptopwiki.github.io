@@ -2,7 +2,7 @@
 layout: wiki
 title: Display, Sound and Keyboard
 toc_content: false
-parent: Basics
+parent: General
 ---
 
 # Display, Sound and Keyboard

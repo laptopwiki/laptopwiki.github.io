@@ -2,7 +2,7 @@
 layout: wiki
 title: Windows Guides
 toc_content: false
-parent: Basics
+parent: General
 ---
 
 # Windows Guides
