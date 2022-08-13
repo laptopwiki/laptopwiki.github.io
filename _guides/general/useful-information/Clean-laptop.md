@@ -29,3 +29,4 @@ contributors: ['M164']
 
 1. There are cleaning solutions with cleaning accessories made specifically for cleaning display panels. Easiest and best solution to buy those. They don't cost much and do the job well.
 2. For everyday cleaning, a microfiber cloth should suffice.
+3. When using the cloth, make sure it's actually clean. You don't want to use a dusty cloth, as the dust on it could scratch the display panel.
