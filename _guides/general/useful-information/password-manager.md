@@ -12,11 +12,14 @@ discord: ['dustojnikhummerCZ#6262', 'Spooker#0378' ]
 # Password managers to help keep your passwords safe
 
 For cloud Saving
-[https://bitwarden.com/[]
+
+https://bitwarden.com/
 
 Want to self host it? Sure
-[https://bitwarden.com/help/article/install-on-premise/[]
+
+https://bitwarden.com/help/article/install-on-premise/
 
 For offline saving
-[https://keepassxc.org/download/]
-[https://keepass.info/]
+
+https://keepassxc.org/download/
+https://keepass.info/
