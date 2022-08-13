@@ -1,15 +1,15 @@
 ---
 layout: wiki
-title: Dimmed Display
-description: "Display looks dimmed even at max brightness"
+title: Dim Display
+description: "Display looks dimm even at max brightness"
 parent: Display, Sound and Keyboard
 grand_parent: General
 image: https://media.discordapp.net/attachments/852210156875153408/955908527724068894/unknown.png
 contributors:
-discord: Niko#9683
+discord: ['Niko#9683']
 ---
 
-# Why my display seems too dimmed for a 500nits desplay?
+# Why my display seems too dimm for a 500nits desplay?
 
 One of the things I was disappointed with initially was the display. It seemed a bit dim compared to other 500 nit displays.
 
