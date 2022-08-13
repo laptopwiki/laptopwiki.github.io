@@ -80,6 +80,8 @@ Legion specific items:
 
 Enjoy and have fun!
 
+# References
+
 [Source](https://rentry.org/laptopsetupguide)
 
 <script type="text/javascript">
