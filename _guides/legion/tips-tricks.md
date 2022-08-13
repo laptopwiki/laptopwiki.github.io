@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Tips and Tricks
-toc_content: true
+toc_content: false
 parent: Legion
 ---
 
