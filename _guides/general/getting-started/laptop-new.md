@@ -19,14 +19,14 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - [ ] Open and close lid (check hinges) (when setting up windows, don’t connect to wifi, therefore you won’t have to deal with unnecessary microsoft services)
 - [ ] Verify actual specs are what you bought (hwinfo and model number)
 - [ ] Check all keyboard keys multiple hits (enter key)
-- [ ] Check for [dead pixels](https://lcdtech.info/en/tests/dead.pixel.htm) (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test) too
+- [ ] Check for [dead pixels](https://lcdtech.info/en/tests/dead.pixel.htm){:target="_blank"} (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test){:target="_blank"} too
 - [ ] Check all ports working (check snugness and fit)
 - [ ] Check profiles and fan speeds (noise)
 - [ ] Check RGB across diff profiles (dark room and well lit)
 - [ ] Check for backlight bleed
 - [ ] Check trackpad for motion and click feel
 - [ ] Check different resolutions
-- [ ] Take [system image](https://www.youtube.com/watch?v=x9BGn4MivJw) “out of the box”
+- [ ] Take [system image](https://www.youtube.com/watch?v=x9BGn4MivJw){:target="_blank"} “out of the box”
 - [ ] Remove bloatware (McAfee, etc.)
 - [ ] Update laptop software (lenovo vantage/dragon center/armory crate, if available)
 - [ ] Update bios (with laptop software, if available)
@@ -47,9 +47,9 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - Built-in benchmark of the game Shadow of the Tomb Radier (free demo) with settings set to HIGHEST, once at native resolution and once at 1080p
 - No benchmark specific to RAM, as it is part of the global CPU performance
 
-It is also very highly recommended to run a [combined load stress test](https://rentry.org/stresstest) to check your thermal performance out of the box.
+It is also very highly recommended to run a [combined load stress test](https://rentry.org/stresstest){:target="_blank"} to check your thermal performance out of the box.
 
-## Conditions for Result Submissions [to our discord](https://discord.gg/CtDvEHecHn)  
+## Conditions for Result Submissions [to our discord](https://discord.gg/CtDvEHecHn){:target="_blank"}  
 
 |  Paramters | Values |
 | :-------------: |:-------------:|
@@ -75,7 +75,7 @@ The above conditions are only for comparing your results to the other laptops on
 ## Extra
 Legion specific items: 
 
-- You could use [Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/tag/2.3.1) instead of vantage if you would like lower resource consumption 
+- You could use [Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/tag/2.3.1){:target="_blank"} instead of vantage if you would like lower resource consumption 
 - It is generally not recommended to update the BIOS version with Legion laptops because lenovo has a habit of breaking things with each new bios release. **Always check with other users on the discord before considering updating the bios.**
 
 Enjoy and have fun!
