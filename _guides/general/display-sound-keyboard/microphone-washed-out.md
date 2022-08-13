@@ -11,7 +11,7 @@ discord: ['dv.ne_#1374', 'dustojnikhummerCZ#6262']
 # Microphone sounds washed out
 
 Right click on the volume icon located in the taskbar and do the following
-- click ``Sounds``
+- Click ``Sounds``
 - Then go to the ``Recording Tab``
 - Double click on ``Microphone``
 - Go to ``Advanced`` tab
