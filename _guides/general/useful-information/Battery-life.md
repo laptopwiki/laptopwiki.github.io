@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Battery Lifespan & Health Info
-    description: "Useful Information about the Battery Lifespan"
+description: "Useful Information about the Battery Lifespan"
 parent: Useful Information
 grand_parent: General
 image: https://media.discordapp.net/attachments/852210156875153408/955908527724068894/unknown.png
