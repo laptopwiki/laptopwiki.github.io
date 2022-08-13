@@ -18,7 +18,7 @@ Do they help? sort of. Are they worth it? Not particularly since they do not sup
 
 Cooling works by mixing hot air with cold air. Heat is transferred from CPU and GPU, via heat sinks, towards the internal fans. Those push cooler, room temperature air through the heat sink, where the heat mixes, and achieves the cooling effect.
 
-## How can Icooling be improved?
+## How can cooling be improved?
 
 Make sure the intakes for the internal fans are unobstructed, as well as the exhausts. In case of any laptop, slightly raising the back side of the laptop can lower the internal temperature by several degrees, as well as lower the fan noise.
 
