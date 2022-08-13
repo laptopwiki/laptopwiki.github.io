@@ -5,7 +5,7 @@ description: "Highlighting information about optimus, mux and advanced optimus a
 parent: Useful Information
 grand_parent: General
 image: https://media.discordapp.net/attachments/852210156875153408/955908527724068894/unknown.png
-contributors: ['M164'] 
+contributors: ['martin4x4']
 ---
 
 # Optimus, MUX switch and Advanced optimus
