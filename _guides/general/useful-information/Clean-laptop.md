@@ -5,7 +5,7 @@ description: "Specifying the methods to clean a laptop without damaging it"
 parent: Useful Information
 grand_parent: General
 image: https://media.discordapp.net/attachments/852210156875153408/955908527724068894/unknown.png
-contributors: ['M164'] 
+contributors: ['martin4x4'] 
 ---
 
 # How to clean your Legion
