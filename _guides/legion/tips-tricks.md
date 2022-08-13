@@ -1,9 +1,9 @@
 ---
 layout: wiki
-title: Bios
+title: Tips and Tricks
 nav_order: 
 toc_content: false
 parent: Legion
 ---
 
-# Bios Guides
+# Tips and Tricks
