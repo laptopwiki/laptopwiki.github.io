@@ -19,7 +19,7 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - [ ] Open and close lid (check hinges) (when setting up windows, don’t connect to wifi, therefore you won’t have to deal with unnecessary microsoft services)
 - [ ] Verify actual specs are what you bought (hwinfo and model number)
 - [ ] Check all keyboard keys multiple hits (enter key)
-- [ ] Check for [dead pixels](https://lcdtech.info/en/tests/dead.pixel.htm){:target="_blank"} (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test){:target="_blank"}
+- [ ] Check for [dead pixels](https://lcdtech.info/en/tests/dead.pixel.htm){:target="_blank"} (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test){:target="_blank"} too
 - [ ] Check all ports working (check snugness and fit)
 - [ ] Check profiles and fan speeds (noise)
 - [ ] Check RGB across diff profiles (dark room and well lit)
@@ -28,9 +28,10 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - [ ] Check different resolutions
 - [ ] Take [system image](https://www.youtube.com/watch?v=x9BGn4MivJw){:target="_blank"} “out of the box”
 - [ ] Remove bloatware (McAfee, etc.)
-- [ ] Update Vantage software (if available) or Legion Toolkit (*Highly recommended* due to lower resource usage)
-- [ ] Update bios (check Discord for best current version). However if you don’t have any issue with it, don’t. Don’t fix it if it ain’t broken. [First time users, don’t update Bios]
-- [ ] Update NVIDIA/AMD DGPU driver (check Discord for best current version)
+- [ ] Update laptop software (lenovo vantage/dragon center/armory crate, if available)
+- [ ] Update bios (with laptop software, if available)
+- [ ] Update GPU driver
+- **About bios and GPU driver updates, make sure to check whether to update or not with other users first just in case something important's changed or if there are known issues with it**
 - [ ] Connect to wifi and run Windows update
 - [ ] Charge battery and confirm 100% as start point
 - [ ] Review Discord/Reddit for any new issues experienced by new owners
@@ -40,13 +41,15 @@ contributors: ['averyspeedybird', 'kirakenchin']
 
 ## Benchmarks you can run on your Laptop to verify and compare performances
 
-- TimeSpy (CPU, GPU and global performances scores)
-- Cinebench R23 (multi-core and single-core CPU performances)
-- CrystalDiskMark (config set to SSD) for read/write SSD performances
-- Built-in benchmark of the game SOTTR (free demo) with settings set to HIGHEST, once at native resolution and once at 1080p
+- 3DMark TimeSpy (CPU, GPU and global performance scores)
+- Cinebench R23 (multi-core and single-core CPU performance)
+- CrystalDiskMark (config set to SSD) for SSD read/write performance
+- Built-in benchmark of the game Shadow of the Tomb Radier (free demo) with settings set to HIGHEST, once at native resolution and once at 1080p
 - No benchmark specific to RAM, as it is part of the global CPU performance
 
-## Conditions for Results Comparison  
+It is also very highly recommended to run a [combined load stress test](/guides/general/getting-started/stress-test/){:target="_blank"} to check your thermal performance out of the box.
+
+## Conditions for Result Submissions [to our discord](https://discord.gg/CtDvEHecHn){:target="_blank"}  
 
 |  Paramters | Values |
 | :-------------: |:-------------:|
@@ -56,10 +59,6 @@ contributors: ['averyspeedybird', 'kirakenchin']
 | Cooling | Back lifted | 
 | Power supply | plugged-in |
 | Temperature Limit | Gen 6 110c (AMD) 100c (Intel) : Gen 7 95C (AMD) 95C (INTEL) |
-
-## Extra
-Above conditions are only for comparison purpose, feel free to run bm with other parameters if you want to
-
 
 |  Sharing results | Posting format (e.g) |
 | :-------------: |:-------------:|
@@ -71,8 +70,17 @@ Above conditions are only for comparison purpose, feel free to run bm with other
 | Power profile | performance Cooling | Back lifted |
 | Nvidia Driver | 511.23 |
 
+The above conditions are only for comparing your results to the other laptops on our discord server, feel free to run benchmarks with other parameters if you want to.
+
+## Extra
+Legion specific items: 
+
+- You could use [Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/tag/2.3.1){:target="_blank"} instead of vantage if you would like lower resource consumption 
+- It is generally not recommended to update the BIOS version with Legion laptops because lenovo has a habit of breaking things with each new bios release. **Always check with other users on the discord before considering updating the bios.**
 
 Enjoy and have fun!
+
+# References
 
 [Source](https://rentry.org/laptopsetupguide){:target="_blank"}
 
