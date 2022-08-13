@@ -1,1 +1,13 @@
+---
+layout: wiki
+title: Post Title
+description: "Description"
+parent: Title from parent entry
+grand_parent: Title from Grand Parent entry
+ancestor: Title from a unique Ancestor Entry
+image: https://image.url
+contributors: ['Kira'] 
+---
+
+
 Draft Folder
