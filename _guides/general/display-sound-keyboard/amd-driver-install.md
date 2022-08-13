@@ -13,7 +13,7 @@ discord: ['Atvaark#0664']
 
 This Guide should help you to install stable AMD display drivers and remove buggy display drivers that have been plaguing your Laptop 
 
-{: .Tip}
+{: .tip}
 This fix has been tested on Windows 11 and hence i cannot guarantee it works on Windows 10 too.  But i don’t see the reason why it wont. Still, Windows 10 Users try it at your own risk
 
 ## Simple Fix
