@@ -20,11 +20,15 @@ This fix has been tested on Windows 11 and hence i cannot guarantee it works on 
 
 1. Download latest driver from [AMD](https://www.amd.com/en/support){:target="_blank"}
 
+{: .center}
 ![Selecting your Hardware](https://laptopwiki.eu/wp-content/uploads/2022/03/Screenshot-2022-03-28-193158.png)
+*Selecting your Hardware*
 
 2. Before installing the driver, make sure to enable factory reset
 
+{: .center}
 ![Enable Factory Reset option](https://laptopwiki.eu/wp-content/uploads/2022/03/image-2.png)
+*Enable Factory Reset option*
 
 3. Restart PC to hybrid mode and AMD installer will install the downloaded AMD driver. Restart PC again.
 
@@ -38,7 +42,9 @@ This fix has been tested on Windows 11 and hence i cannot guarantee it works on 
 
 1. Download latest driver from [AMD](https://www.amd.com/en/support){:target="_blank"} or **22.5.1/22.7.1** as those are optimised drivers that were tested by community members
 
+{: .center}
 ![Selecting your Hardware](https://laptopwiki.eu/wp-content/uploads/2022/03/Screenshot-2022-03-28-193158.png)
+*Selecting your Hardware*
 
 2. Download [**Wushowhide**](https://download.microsoft.com/download/f/2/2/f22d5fdb-59cd-4275-8c95-1be17bf70b21/wushowhide.diagcab){:target="_blank"}
 
