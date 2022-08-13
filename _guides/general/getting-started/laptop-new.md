@@ -47,7 +47,7 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - Built-in benchmark of the game Shadow of the Tomb Radier (free demo) with settings set to HIGHEST, once at native resolution and once at 1080p
 - No benchmark specific to RAM, as it is part of the global CPU performance
 
-It is also very highly recommended to run a [combined load stress test](https://rentry.org/stresstest){:target="_blank"} to check your thermal performance out of the box.
+It is also very highly recommended to run a [combined load stress test](/guides/general/getting-started/stress-test/){:target="_blank"} to check your thermal performance out of the box.
 
 ## Conditions for Result Submissions [to our discord](https://discord.gg/CtDvEHecHn){:target="_blank"}  
 
@@ -82,7 +82,7 @@ Enjoy and have fun!
 
 # References
 
-[Source](https://rentry.org/laptopsetupguide)
+[Source](https://rentry.org/laptopsetupguide){:target="_blank"}
 
 <script type="text/javascript">
   $(document).ready(function(){
