@@ -12,5 +12,5 @@ discord: ['amq#1035']
 # How to get rid of the popping sound in speaker after an audio stops playing
 
 - Open ``Regedit``
-- search for ``ConservationIdleTime``
+- Search for ``ConservationIdleTime``
 - Replace values of ``ConservationIdleTime``, ``IdlePowerState``, ``PerformanceIdleTime`` with ``01 00 00 00 4``. repeat this for all, **use F3 to find next** If regedit complains that value cannot be changed, just continue to next
