@@ -25,7 +25,7 @@ AdvPowerSettings.batcontrol.exe powercfg.cpl,,3
 
 Create a new text document and copy/paste one of the lines from below and Save it as
 
-<Current Scheme> Boost Disabled
+### Boost Disabled
 -------------------------------
 
 ```
@@ -33,7 +33,7 @@ powercfg.exe /SETACVALUEINDEX SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d0
 powercfg.exe -S SCHEME_CURRENT
 ```
 
-<Current Scheme> Efficient Aggressive
+### Efficient Aggressive
 -------------------------------------
 
 ```
@@ -60,6 +60,7 @@ Possible Setting Index: 006 - Efficient Aggressive At Guaranteed
 - Change which power mode you’re in (Silent, Balanced, High Performance)
 - Change any settings within these power plans
 - Change other settings such as sleep/wake timers 
+
 
 ![Examples shown above](https://cdn.discordapp.com/attachments/840314972918644767/857226400054378526/unknown.png)
 
