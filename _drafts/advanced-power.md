@@ -62,6 +62,8 @@ Possible Setting Index: 006 - Efficient Aggressive At Guaranteed
 - Change other settings such as sleep/wake timers 
 
 
-![Examples shown above](https://cdn.discordapp.com/attachments/840314972918644767/857226400054378526/unknown.png)
+{: .center}
+![image](https://cdn.discordapp.com/attachments/840314972918644767/857226400054378526/unknown.png)
+*Examples shown above*
 
-"file needs to be added here, guide not complete"
+
