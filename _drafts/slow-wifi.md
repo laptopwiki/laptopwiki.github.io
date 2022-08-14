@@ -27,7 +27,7 @@ netsh wlan connect name=$ConnectedWifi_Name`
 
 ```
 
-## Scheduled Task action:
+## Scheduled Task action
 
 ```
 Start a program
