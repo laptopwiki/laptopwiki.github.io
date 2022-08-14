@@ -26,7 +26,6 @@ AdvPowerSettings.batcontrol.exe powercfg.cpl,,3
 Create a new text document and copy/paste one of the lines from below and Save it as
 
 ### Boost Disabled
--------------------------------
 
 ```
 powercfg.exe /SETACVALUEINDEX SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7 000
@@ -34,7 +33,6 @@ powercfg.exe -S SCHEME_CURRENT
 ```
 
 ### Efficient Aggressive
--------------------------------------
 
 ```
 powercfg.exe /SETACVALUEINDEX SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7 004
