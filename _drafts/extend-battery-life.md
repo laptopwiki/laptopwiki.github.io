@@ -10,7 +10,7 @@ discord: ['Kuri#9378', 'NU7SU#3194']
 
 # Extend battery life using community made power plan
 
-This is a guide intended to boost your machines battery life (especially for brand new laptops)
+This is a guide intended to boost your machine's battery life (especially for brand new laptops)
 
 ## Steps
 
