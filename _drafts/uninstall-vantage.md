@@ -21,19 +21,19 @@ Open taskmanager, close every program that is linked to vantage. Then go to deta
 
 - Find the Interface/System Interface Foundation V2 Device
 
-Open device manager, go to the system devices drop down, and select the (**Lenovo ACPI-Compliant Virtual Power Controller**)
+  Open device manager, go to the system devices drop down, and select the (**Lenovo ACPI-Compliant Virtual Power Controller**)
 
 - Uninstall
 
-Right click and select uninstall, also check the box to uninstall its drivers.
+  Right click and select uninstall, also check the box to uninstall its drivers.
 
 - Cleanup
 
-go to add/remove programs and uninstall anything with the name (Vantage) in it, if (more options) is shown then click that and go down to (reset) before you uninstall it.
+  Go to add/remove programs and uninstall anything with the name (Vantage) in it, if (more options) is shown then click that and go down to (reset) before you uninstall it.
 
--  Reboot
+- Reboot
 
-Reboot the laptop and check if any vantage programs are running, also check if vantage has auto installed after a reboot
+  Reboot the laptop and check if any vantage programs are running, also check if vantage has auto installed after a reboot
 
 ## Reset Lenovo Vantage
 
