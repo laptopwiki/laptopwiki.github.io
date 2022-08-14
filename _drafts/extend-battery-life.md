@@ -24,20 +24,26 @@ I you have a newly bought laptop or a laptop that has been plugged in for a long
 Use [Refresh Rate and Power Profile Auto-Switch V2](https://laptopwiki.eu/index.php/guides-and-tutorials/tips-tricks/auto-refresh-rate-power-plan-switcher/) to switch to 60Hz automatically when the device is unplugged
 
 - **Powerplans**
-Use Kira’s Quiet Mode V1 [⬇️](https://drive.google.com/file/d/1iAFuKj1Fcic0W3sN4Kk_akZFN3ADmuZF/view?usp=sharing) (AMD)
-Use Kira Quiet Mode v2 [⬇️](https://drive.google.com/file/d/13F0SpoUK3vFm1WmQuqAhAXbyaqSuoFP5/view?usp=sharing) (AMD) (Credits to Kuri)
-Use Undervolt's Battery saver plan [⬇️](https://drive.google.com/file/d/192udkM0IJCpmuIx2B_rx78UcXlLHeBuW/view?usp=sharing)(Intel)
+
+  - Use Kira’s Quiet Mode V1 [⬇️](https://drive.google.com/file/d/1iAFuKj1Fcic0W3sN4Kk_akZFN3ADmuZF/view?usp=sharing) (AMD)
+
+  - Use Kira Quiet Mode v2 [⬇️](https://drive.google.com/file/d/13F0SpoUK3vFm1WmQuqAhAXbyaqSuoFP5/view?usp=sharing) (AMD)
+
+  - Use Undervolt's Battery saver plan [⬇️](https://drive.google.com/file/d/192udkM0IJCpmuIx2B_rx78UcXlLHeBuW/view?usp=sharing)(Intel)
 
 ## Importing Powerplan
 
 - Open an [elevated command prompt](https://winaero.com/blog/how-to-open-elevated-command-prompt-in-windows-10/)
+
 - Type the following command to list all the available power plans:
 
 ``powercfg.exe /L``
+
 - Now all the power plans installed in the laptop will be displayed along with their GUID, currently equipped power plan will be denoted by an asterisk (*)
 Execute the following command: 
 
 ``powercfg import "%YourUserProfile%\Location of the powerplan downloaded right now\PowerPlan.pow" GUID`` 
+
 (DONT COPY PASTE THIS COMMAND, ADD YOUR VALUES)
 
 - Use ``Powercfg.exe /l`` to get the GUID for each powerplan
