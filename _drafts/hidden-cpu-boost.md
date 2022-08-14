@@ -12,13 +12,21 @@ discord: ['mind12#3390']
 
 ## Show hidden CPU Boost Mode without the Regedit trick
 
-- Run Command Prompt / Windows Terminal as administrator:
+- Run Command Prompt / Windows Terminal as administrator
 
-``powercfg -attributes sub_processor perfboostmode -attrib_hide``
+
+```
+powercfg -attributes sub_processor perfboostmode -attrib_hide
+```
+
 
 In order to Undo this action
 
-``powercfg -attributes sub_processor perfboostmode +attrib_hide``
+
+```
+powercfg -attributes sub_processor perfboostmode +attrib_hide
+```
+
 
 -  Configure it in your preferred power plan
 
@@ -26,7 +34,7 @@ In order to Undo this action
 Control Panel --> Power Options --> Change Plan Settings --> Change advanced power settings --> Processor power management --> Processor performance boost mode
 ```
 
-    - While Disabled (Default: Aggressive) your thermals will improve drastically whith minimal (CPU intensive games) or zero performance lost. If you don't want to completely disable it use Efficient Aggressive.
+- While Disabled (Default: Aggressive) your thermals will improve drastically whith minimal (CPU intensive games) or zero performance lost. If you don't want to completely disable it use Efficient Aggressive.
 
 
 ## Show System cooling policy in the power plan settings
