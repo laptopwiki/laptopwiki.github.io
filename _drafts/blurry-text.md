@@ -25,7 +25,7 @@ once that's done
 
 Open the Application were the issue was persistent and check if the issue has been fixed.
 
-# The Text looks bad after Fix
+# The Text looks worse after Fix
 
 - Go Back to ``SystemPropertiesPerformance.exe`` and recheck **Smooth edges of Screen Font and Use drop shadows for icons on the desktop** 
 - This should make everything look normal and fix the weird blurry text.
