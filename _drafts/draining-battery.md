@@ -8,7 +8,8 @@ contributors: ['martin4x4']
 discord:
 ---
 
-# Problem: dGPU is always active when in Hybrid mode, and battery drains too fast
+# Problem: Discrete GPU always active
+Discrete GPU is always active even when in Hybrid mode, and as a result, the battery drains too fast, resulting to around 35wh discharge rate.
 
 ## Solution
 
