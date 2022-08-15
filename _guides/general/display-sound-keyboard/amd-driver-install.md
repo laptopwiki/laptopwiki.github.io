@@ -34,7 +34,9 @@ This fix has been tested on Windows 11 and hence i cannot guarantee it works on 
 
 4. Check for Updates inwindows update, once old AMD driver installs again, go to 
 
-``Device Manager --> Display Adapters --> AMD display adapter --> Properties --> Driver Tab --> Roll back Driver``
+   ```
+   Device Manager --> Display Adapters --> AMD display adapter --> Properties --> Driver Tab --> Roll back Driver
+   ```
 
 5. Now the driver would get rolled back to the previous manually installed driver from AMD Website
 
