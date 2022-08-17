@@ -19,6 +19,3 @@ This guide shows how to max out the fans in Lenovo Legion Y540, unfortunately no
 - Move to **Fan control** folder and run ``Fancontroller.exe``
 - The main app will open now with Basic UI such as Max fans and Normal Speed
 - Enjoy your limited but fan control finally!`
-
-
-Images needed*
