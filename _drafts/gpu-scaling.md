@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: gpu Scaling
+title: GPU Scaling
 description: "Enabling GPU scaling in older Nvidia GPUs"
 parent: Performance, Thermal and Fan Management
 grand_parent: General
