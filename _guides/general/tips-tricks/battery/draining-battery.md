@@ -2,8 +2,8 @@
 layout: wiki
 title: Quickly draining Battery in Hybrid mode
 description: "Battery draining quickly in hybrid mode due to dgpu being active"
-parent: Tips and Tricks
-grand_parent: General
+parent: Battery
+grand_parent: Tips and Tricks
 contributors: ['martin4x4'] 
 discord:
 ---

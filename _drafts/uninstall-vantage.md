@@ -3,7 +3,7 @@ layout: wiki
 title: Uninstall Lenovo Vantage
 description: "Guide to uninstall vantage"
 parent: Tips and Tricks
-grand_parent: legion
+grand_parent: Legion
 contributors: ['Dglt', 'kirakenchin'] 
 discord: 
 ---

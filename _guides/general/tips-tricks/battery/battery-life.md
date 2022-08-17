@@ -2,8 +2,8 @@
 layout: wiki
 title: Battery Lifespan & Health Info
 description: "Useful Information about the Battery Lifespan"
-parent: Useful Information
-grand_parent: General
+parent: Battery
+grand_parent: Tips and Tricks
 image: https://media.discordapp.net/attachments/852210156875153408/955908527724068894/unknown.png
 contributors: ['martin4x4'] 
 ---
