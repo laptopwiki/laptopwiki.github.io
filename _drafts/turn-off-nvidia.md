@@ -34,7 +34,7 @@ The tool can be found [here](https://github.com/eduojeda/nvidia-optimus-kill). T
 Set-ExecutionPolicy RemoteSigned
 ```
 
-In the future, the bat file **Nvidia-kill.bat or Nvidia Kill Link could be run as a quicker access.
+In the future, the bat file **Nvidia-kill.bat** or **Nvidia Kill Link** could be run as a quicker access.
 
 ## Pictures
 
