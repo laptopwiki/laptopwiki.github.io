@@ -10,7 +10,7 @@ discord: ['amq#1035']
 
 # Windows Power Profile - Poor Man's Edition
 
-The main idea behind this Guide is to keep the CPU boost on in games while the CPU draws lower power than necessary, leading to lower noise levels. 
+The main idea behind this Guide is to keep the CPU boost enabled in games while the CPU draws lower power than necessary, leading to lower noise levels. 
 
 # Profile Settings
 
