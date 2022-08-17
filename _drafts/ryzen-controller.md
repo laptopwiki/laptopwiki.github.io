@@ -4,7 +4,7 @@ title: Reduce CPU Temps - Ryzen Controller
 description: "Reduce the CPU temps with the help of Ryzen Controller"
 parent: Performance and Thermal Management
 grand_parent: General
-contributors: [''] 
+contributors: 
 discord: ['GhostFella#4719']
 ---
 
