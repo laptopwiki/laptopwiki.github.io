@@ -4,7 +4,7 @@ title: Turn off dedicated graphics card
 description: "Switch off the Nvidia GPU after an external Monitor is disoconnected"
 parent: Performance, Thermal and Fan Management
 grand_parent: General
-contributors: [''] 
+contributors:
 discord: ['LABØ!#5022']
 ---
 
