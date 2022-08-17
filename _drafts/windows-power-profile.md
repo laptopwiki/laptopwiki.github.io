@@ -4,7 +4,7 @@ title: Windows Power profiles with Quiet CPU boosting
 description: "Power Profiles designed to keep CPU boost on but reduce overall noise levels"
 parent: Performance and Thermal Management
 grand_parent: General
-contributors: [''] 
+contributors: 
 discord: ['amq#1035']
 ---
 
