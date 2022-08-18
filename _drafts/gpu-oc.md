@@ -83,7 +83,7 @@ e.g. 800mV: 1710MHz
 
 {: .center}
 ![image](https://cdn.discordapp.com/attachments/713356473123602484/1009798514789843034/unknown.png)
-*3070 Undervolt Curve*
+*3070/ti Undervolt Curve*
 
 ## 3080/80ti Laptop
 
@@ -105,5 +105,5 @@ e.g. 837mV: 1780MHz
 
 {: .center}
 ![image](https://cdn.discordapp.com/attachments/713356473123602484/1009800464449151006/unknown.png)
-*3080 Undervolt Curve*
+*3080/ti Undervolt Curve*
 
