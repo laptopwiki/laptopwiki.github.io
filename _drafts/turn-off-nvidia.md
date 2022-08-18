@@ -20,13 +20,13 @@ In Detail, The problem can be described as the external Display outputs of a gam
 
 ## Solution
 
-There is a tool called [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface), which can be launched using a terminal. Using nvidia-smi one can check if there is any other process running on the Nvidia GPU. 
+There is a tool called [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface){:target="_blank"}, which can be launched using a terminal. Using nvidia-smi one can check if there is any other process running on the Nvidia GPU. 
 
-In fact, there are some processes that are not listed in the Nvidia GPU activity monitor. If these processes shown in the Nvidia-SMI are killed, the Nvidia GPU will then turn off. This problem was initially found in this [forum post](https://forum-en.msi.com/index.php?threads/issue-with-nvidia-optimus-on-msi-gs65.317379/post-1949576). The Author of the post is talking about the very same problem encountered by most owners of laptops with a discrete GPU nowdays. In this post, the Author shared a PowerShell script that can be run to restart any process running on the Nvidia GPU. 
+In fact, there are some processes that are not listed in the Nvidia GPU activity monitor. If these processes shown in the Nvidia-SMI are killed, the Nvidia GPU will then turn off. This problem was initially found in this [forum post](https://forum-en.msi.com/index.php?threads/issue-with-nvidia-optimus-on-msi-gs65.317379/post-1949576){:target="_blank"}. The Author of the post is talking about the very same problem encountered by most owners of laptops with a discrete GPU nowdays. In this post, the Author shared a PowerShell script that can be run to restart any process running on the Nvidia GPU. 
 
 ## Tool
 
-The tool can be found [here](https://github.com/eduojeda/nvidia-optimus-kill). This tool was tested by fellow members of the server and it was found to be working as expected. In order to run it, a PowerShell terminal needs to be open and the following command pasted.
+The tool can be found [here](https://github.com/eduojeda/nvidia-optimus-kill){:target="_blank"}. This tool was tested by fellow members of the server and it was found to be working as expected. In order to run it, a PowerShell terminal needs to be open and the following command pasted.
 
 ## Command
 

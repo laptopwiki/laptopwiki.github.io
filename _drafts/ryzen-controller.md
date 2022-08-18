@@ -12,7 +12,7 @@ discord: ['GhostFella#4719']
 
 This is a Guide to reduce the Temperature of AMD CPUs using Ryzen Controller (Ryzenadj). With the help of this software, various power management settings, such as limiting CPU power consumption can be adjusted. 
 
-[Download](https://github.com/FlyGoat/RyzenAdj)
+[Download](https://github.com/FlyGoat/RyzenAdj){:target="_blank"}
 
 # Check Default Values - Ryzenadj.exe
 
@@ -35,4 +35,4 @@ This is a Guide to reduce the Temperature of AMD CPUs using Ryzen Controller (Ry
 - Select ``tab Conditions``, uncheck ``Stop task``
 - Click Ok 
 
-For more information about how Ryzen Controller works, follow this [link](https://github.com/FlyGoat/RyzenAdj/wiki/Renoir-Tuning-Guide)
+For more information about how Ryzen Controller works, follow this [link](https://github.com/FlyGoat/RyzenAdj/wiki/Renoir-Tuning-Guide){:target="_blank"}

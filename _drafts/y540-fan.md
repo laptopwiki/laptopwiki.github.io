@@ -13,7 +13,7 @@ This guide shows how to max out the fans in Lenovo Legion Y540, unfortunately no
 
 ## Procedure
 
-- Download the [Archive](https://drive.google.com/file/d/1kP4SfDxZ_Iluy3xXRQkri8wMmGc8E3DW/view?usp=sharing) file
+- Download the [Archive](https://drive.google.com/file/d/1kP4SfDxZ_Iluy3xXRQkri8wMmGc8E3DW/view?usp=sharing){:target="_blank"} file
 - Extract the file and move inside the folder
 - Install the driver with ``common.exe`` found in the Parent Folder and then Restart
 - Move to **Fan control** folder and run ``Fancontroller.exe``
