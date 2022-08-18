@@ -18,8 +18,6 @@ discord:
 {: .center}
 ![image](https://cdn.discordapp.com/attachments/713356473123602484/1009563479214149822/unknown.png)
 
-<<<<<<< Updated upstream
-4. to revert, change back to 80
-=======
 5. to revert, change back to 80
+
 
