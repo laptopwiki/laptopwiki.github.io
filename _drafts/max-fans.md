@@ -3,7 +3,7 @@ layout: wiki
 title: Set Fans to max speed
 description: "How to force fans to max speed"
 parent: Performance, Thermal and Fan Management
-grand_parent: General
+grand_parent: Legion
 contributors: ['dglt'] 
 discord: 
 ---
