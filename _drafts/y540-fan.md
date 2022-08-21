@@ -4,7 +4,7 @@ title: Y540
 description: "Limited Fan Control for Legion Y540"
 parent: Performance and Thermal Management
 grand_parent: Legion
-contributors: ['undervolt'] 
+contributors: ['undervoltologist'] 
 ---
 
 # Y540 Fan Control
