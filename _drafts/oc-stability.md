@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: GPU Overclock Guide
+title: Overclocking and Stability testing
 description: "Overclocking the GPU to achieve better performance than stock"
 parent: Performance, Thermal and Fan Management
 grand_parent: General
@@ -41,14 +41,14 @@ The frequenzy steps are a bit annoying too. It´s mostly 7, Sometimes 8 in few o
 - Open Stress test (Explained previously)
 - Let it run until curve shifts 30 MHz up, Should stay at 1430 MHz now.
 - Now increase the Curve by **7 MHz**. Wait one or two cycles of the test. Increase by 7 MHz again.
-- Repeat until you get **crashes/artefacts**. Artefacts can be identified by **"green squares"**, **"yellow arcs"**, **"white circles"** and so on.
-- Due to artefacts go 7 MHz back. Wait 3-5 cycles for crashes/artefacts (If you get a driver crash: try to click in the now black stress test windows FAST and click „ESC“. This should close the stress test after a maximum of 1 minute and you can restart it thru 3DMark and keep on tweaking. If you cannot get 3DMark to react you have to force close every component o fit thru the task manager and open again.
-- The GPU using small steps makes it very pleasant to tweak (at least for me) because the number of full driver crashes were at around 4 or 5 in a 3 hour session. Artefacts just need fast clock adjustment and you can keep it running.
-- Now when you didn’t find artefacts or crashes after 3-5 cycles write down the achieved clock with the used voltage. I would recommend going at least 3 steps (21 MHz) below the short-term stability you just tested in your final curve to have a pretty stable Overclock.
+- Repeat until you get **crashes/artifacts**. Artifacts can be identified by **"green squares"**, **"yellow arcs"**, **"white circles"** and so on.
+- Due to artifacts, go 7 MHz back. Wait 3-5 cycles for crashes/artifacts (If you get a driver crash: try to click in the now black stress test windows FAST and click „ESC“. This should close the stress test after a maximum of 1 minute and you can restart it thru 3DMark and keep on tweaking. If you cannot get 3DMark to react you have to force close every component or fit thru the task manager and open again.
+- The GPU using small steps makes it very pleasant to tweak (at least for me) because the number of full driver crashes were at around 4 or 5 in a 3 hour session. Artifacts just need fast clock adjustment and you can keep it running.
+- Now when you didn’t find artifacts or crashes after 3-5 cycles write down the achieved clock with the used voltage. I would recommend going at least 3 steps (21 MHz) below the short-term stability you just tested in your final curve to have a pretty stable Overclock.
 
-### Repeat the process with the next voltage and so on.
-
+{: .highlight}
 Follow the above mentioned steps until you reach around **0,850mV**. Because at this voltage you will start to get tdp throttling in certain loads. Further stability testing is really time consuming and should be happening over time when gaming. Because you will hit tdp throttling very often at above 0,85V the voltage will fluctuate by a lot.
+
 Most modern games will make very good use of 0,85V maxing out closely around it and you will already have close to max performance
 
 Some example values to help
@@ -66,7 +66,7 @@ Some example values to help
 ![image](https://cdn.discordapp.com/attachments/832668125098803261/1009573060623470692/unknown.png)
 *3060 Undervolt Curve*
 
-## 3070/70ti Laptop
+## 3070 / 3070ti Laptop
 
 - Open MSI afterburner settings turn on everything in the ``General`` and ``Compatibility`` sections
 - set core clock to lowest and apply (around 100 - 150 is recommended)
@@ -85,7 +85,7 @@ e.g. 800mV: 1710MHz
 ![image](https://cdn.discordapp.com/attachments/713356473123602484/1009798514789843034/unknown.png)
 *3070/ti Undervolt Curve*
 
-## 3080/80ti Laptop
+## 3080 / 3080ti Laptop
 
 - Open MSI Afterburner
 - Start with +140 on core clock and +500 on memory clock
