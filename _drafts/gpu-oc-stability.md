@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Overclocking and Stability testing
+title: GPU Overclocking and Stability testing
 description: "Overclocking the GPU to achieve better performance than stock"
 parent: Performance, Thermal and Fan Management
 grand_parent: General
@@ -8,7 +8,7 @@ contributors:
 discord: ['tidles#19239']
 ---
 
-# GPU Overclock Guide
+# GPU Overclocking and Stability testing
 
 This Guide was made for maximising Overclock Potential on 30 series GPUs based on personal experiences.
  
