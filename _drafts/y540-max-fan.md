@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Y540
+title: Y540 max fan
 description: "Limited Fan Control for Legion Y540"
 parent: Performance and Thermal Management
 grand_parent: Legion
