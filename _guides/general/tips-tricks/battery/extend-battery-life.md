@@ -2,8 +2,8 @@
 layout: wiki
 title: Extend Battery Life
 description: "Achieve best Battery Life using community made Powerplan"
-parent: Tips and Tricks
-grand_parent: General
+parent: Battery
+grand_parent: Tips and Tricks
 contributors: ['kirakenchin', 'undervolt'] 
 discord: ['Kuri#9378', 'NU7SU#3194']
 ---
