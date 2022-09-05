@@ -22,7 +22,7 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - [ ] Check for [dead pixels](https://lcdtech.info/en/tests/dead.pixel.htm){:target="_blank"} (black and white screen tests), Perform [Monitor Tests](https://arnowelzel.de/en/tools/monitor-test){:target="_blank"} too
 - [ ] Check all ports working (check snugness and fit)
 - [ ] Check profiles and fan speeds (noise)
-- [ ] Check RGB across diff profiles (dark room and well lit)
+- [ ] Check RGB across different profiles (dark room and well lit)
 - [ ] Check for backlight bleed
 - [ ] Check trackpad for motion and click feel
 - [ ] Check different resolutions
@@ -45,7 +45,7 @@ contributors: ['averyspeedybird', 'kirakenchin']
 - Cinebench R23 (multi-core and single-core CPU performance)
 - CrystalDiskMark (config set to SSD) for SSD read/write performance
 - Built-in benchmark of the game Shadow of the Tomb Radier (free demo) with settings set to HIGHEST, once at native resolution and once at 1080p
-- No benchmark specific to RAM, as it is part of the global CPU performance
+Note that there is no benchmark specific to RAM, as it is part of the global CPU performance
 
 It is also very highly recommended to run a [combined load stress test](/guides/general/getting-started/stress-test/){:target="_blank"} to check your thermal performance out of the box.
 
