@@ -100,10 +100,10 @@ Your 16MB backup file: ``BACKUP_BIOSREG.bin``
 - Open ``bios_clean.bin`` in HxD
 - Open ``BACKUP_BIOSREG.bin`` in HxD
 - Select ``BACKUP_BIOSREG.bin`` tab if not already selected
-- ``CTRL+E, Start: D0000 | Length: C6000 | Hex, OK``
+- ``CTRL+E, Start: D0000 | Length: 4230 | Hex, OK``
 - ``CTRL+C``
 - Select ``bios_clean.bin`` tab
-- ``CTRL+E, Start: D0000 | Length: C6000 | Hex, OK``
+- ``CTRL+E, Start: D0000 | Length: 4230 | Hex, OK``
 - ``CTRL+V``
 - File, Save As, ``bios_clean_mySerials.bin``
 
