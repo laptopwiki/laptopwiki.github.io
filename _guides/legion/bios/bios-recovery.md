@@ -19,7 +19,7 @@ A 3.3V SPI programmer like the CH341A is needed and also knowledge about it is r
 
 This video should help you to understand how this kind of programmers work, if you still can't figure out how SPI works, then unfortunately this guide isn't for you.
 
-<iframe width="892" height="502" src="https://www.youtube.com/embed/4qX2zihB6UE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/4qX2zihB6UE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Tools needed
 
