@@ -22,13 +22,14 @@ Also to note a very important double increase in L2 cache.
 
 But these small differences in paper shouldn't give a big difference in performance, *right*. Wrong.
 
-We can verify a 51% increase in single core performance between the 7950X and 3950X and a 56% increase in multi core. Between the 7950X and 5950X we can observe a 25% increase in single core performance and 49% increase in multi core.
+We can verify a 51% increase in single core performance between the 7950X and 3950X and a 56% increase in multi core. Between the 7950X and 5950X we can observe a 25% increase in single core performance and 49% increase in multi core. Even the Threadripper is looking in range even with double the cores. *One can imagine how those will come up in Zen 4, oh boy oh boy*.
 For the 7600X, we observe it being almost on par with the 5800X, albeit still slower than an "equivalent" i5-12600K. This concludes that in the midrange of desktops, Intel may still be the way to go on multi core heavy applications. However, on single core performance the 7600X seems on par with a 12900K which is bonkers to me, and 26% faster than a 5600X. *Didn't it use to be the other way around?*
 
 This level of gains is explained very simply: IPC uplift and the frequency uplift already observed. It is really that straightforward. However, now AMD is following Intel's lead on power consumption, and also heat. But AMD is stating this is *normal* and *by design* so who are we to doubt that, *laughs in new PSU and expensive cooler*.
 
 The level of gains in terms of productivity and gaming are very impressive between generations and compared with new 12th Gen Intel CPUs, and I advise you all to check out the videos referenced for more detailed information.
 On top of CPU evolution, I'm very much looking forward to the improved sinergy that hopefully will come with new 7000 Radeon GPUs as well, as they should be better suited to squeeze as much gaming potential as possible from these processors.
+On top of that, one can also be looking forward to the 3D V-Cache based processors, which promise to up gaming performance even more.
 
 
 # But what about laptops?
@@ -39,7 +40,7 @@ However, that may mean that AMD will follow Intel's path of designing less power
 For too long I felt, for example in my old Legion 5 Pro with the 5800H, that these chips had potential for much more and were badly optimized mainly for gaming.
 Therefore, I think we should all look forward for beefy boys with these chips pushing 100W and shredding those benches. And I still think they will create chips for the ones that still crave the thermal efficiency.
 
-For me, the main advantage that AMD right now has in the market is that they are able to do anything they want: chips for huge heavy desktop replacements, chips for thin and light gaming (with or without dGPU because their iGPU is also great), chips that meet the middle ground, all with the potential to surpass Intel in almost every way.
+For me, the main advantage that AMD right now has in the market is that they are able to do anything they want: chips for huge heavy desktop replacements, chips for thin and light gaming (with or without dGPU because their iGPU is also great), chips that meet the middle ground, chips with 3D cache for pure gaming laptops or chips for pure productivity laptops, all with the potential to surpass Intel in almost every way. The only thing that can stop them in their tracks is... themselves, I guess. And supply chains, because *reasons*.
 
 The only thing I'm certain of is that this new generation of AMD products is a very exciting prospect, and hopefully these following months pass quickly.
 
