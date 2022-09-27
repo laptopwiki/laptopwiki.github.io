@@ -17,24 +17,28 @@ When the 7000 Series presentation rolled out a few weeks ago, AMD didn't make a 
 
 ## Specs
 
-One of the most refreshing things for me to do when a new gen of goods comes along is to compare them with older gens. So let's see what we get, courtesy of Jarrod's Tech amazing comparison between 3000, 5000 and 7000 series.
+One of the most refreshing things for me to do when a new gen of goods comes along is to compare them with older gens. So let's see what we get, courtesy of Jarrod's Tech 2 amazing comparison between various series of Ryzen silicon.
 
-So, as we can see, core count hasn't changed, and AMD hasn't followed the trend of ** more cores ** of Intel. The main difference is base and turbo clock speed, the latter up by an eye watering 1 GHz from 3000 series and 800 Mhz from 5000.
+*Put the 2 spec screenshots side by side with description "Evolution of Ryzen specs over the generations"*
+
+So, as we can see, core count hasn't changed, and AMD hasn't followed the trend of **MORE CORES** of Intel. The main differences are the base and turbo clock speeds, up between 25-30%, which is an amazing generational leap, and one deeply appreciated. I also appreciate how AMD doesn't simply break the 5 Ghz magic barrier, it just goes up and beyond, a refreshing sight.
 Also to note a very important double increase in L2 cache, which should be good news especially for the server prospects of Zen 4 Threadripper and/or Epyc CPUs that should come out in the future.
 
 ## Performance differences and comparison
 
 But these small differences in paper shouldn't mean a big difference in performance, *right?*. Wrong.
 
-We can verify a 51% increase in single core performance between the 7950X and 3950X and a 56% increase in multi core. Between the 7950X and 5950X we can observe a 25% increase in single core performance and 49% increase in multi core. Even the Threadripper is looking in range even with double the cores. *One can imagine how those will come up in Zen 4, oh boy oh boy*.
-For the 7600X, we observe it being almost on par with the 5800X, albeit still slower than an "equivalent" i5-12600K. This concludes that in the midrange of desktops, Intel may still be the way to go on multi core heavy applications. However, on single core performance the 7600X seems on par with a 12900K which is bonkers to me, and 26% faster than a 5600X. *Didn't it use to be the other way around?*
+*Put the benchmark screenshots with the description: "Cinebench R23 benchmark results and comparison with other processors"*
 
-This level of gains is explained very simply: IPC uplift and the frequency uplift already observed. However, now AMD is following Intel's lead on power consumption, and also heat, with the CPU hitting it's maximum operating temperature of 95 degrees consistently. But AMD is stating this is *normal* and *by design*, which in a nutshell means that instead of dropping clocks to prevent the CPU from running hotter, the CPU is designed in a way that, with *sufficient* cooling, 95 degrees (TJMax for the 7000 series) should correspond to stable max turbo clocks. 
+We can verify a 51% increase in single core performance between the 7950X and 3950X and a 56% increase in multicore. Between the 7950X and 5950X we can observe a 25% increase in singlecore performance and 49% increase in multi core. Even the Threadripper is looking in range despite the latter having double the cores. *One can imagine how those will come up in Zen 4, oh boy oh boy*.
+For the 7700X, there is a 45% uplift in multicore score in regards to the 5700X and 31% faster in singlecore.
+For the 7600X, we observe it being almost on par with the 5800X on multicore scores, albeit still slower than an "equivalent" i5-12600K. This concludes that in the midrange of desktops, Intel may still be the way to go on multicore heavy applications. However, on singlecore performance the 7600X seems on par with a 12900K which is bonkers to me, and 26% faster than a 5600X. *Didn't it use to be the other way around?*
 
-The level of gains in terms of productivity and gaming are very impressive between generations and compared with new 12th Gen Intel CPUs, and I advise you all to check out the videos referenced for more detailed information.
+This level of gains is explained very simply: IPC uplift and the frequency uplift already observed. However, now AMD is following Intel's lead on power consumption, and also heat, with the CPU hitting it's maximum operating temperature of 95 degrees consistently. Even with all of the architecture and node developments and inovation, there is clearly a point where AMD realized that in order to at least match Intel, power levels had to be raised. However, AMD is stating this is *normal* and *by design*, which in a nutshell means that instead of dropping clocks to prevent the CPU from running hotter, the CPU is designed in a way that, with *sufficient* cooling, 95 degrees (TJMax for the 7000 series) should correspond to stable max turbo clocks. 
+
+The level of gains in terms of productivity and gaming are very impressive between generations and compared with new 12th Gen Intel CPUs, and I advise you all to check out the videos referenced below for more detailed information and all of the comparisons in multiple productivity benchmarks and games.
 On top of CPU evolution, I'm very much looking forward to the improved sinergy that hopefully will come with new 7000 Radeon GPUs as well, as they should be better suited to squeeze as much gaming potential as possible from these processors.
 On top of that, one can also be looking forward to the 3D V-Cache based processors, which promise to up gaming performance even more, if the 5800X3D is an indication of what's to come.
-
 
 # But what about laptops?
 
@@ -49,15 +53,12 @@ For me, the main advantage that AMD right now has in the market is that they are
 The only thing I'm certain of is that this new generation of AMD products is a very exciting prospect, and hopefully these following months pass quickly.
 
 
-
-
-
-
 # References
 
-Jarrod Video: https://www.youtube.com/watch?v=kpqQBcofZkQ
+[Ryzen 9 7950X has BIG Gains! But At What Cost?](https://www.youtube.com/watch?v=kpqQBcofZkQ){:target="_blank"}
 
-Hardware Unboxed Video: https://www.youtube.com/watch?v=_WubXd2tXOA
+[Comparing 4 Generations of Ryzen 7 CPUs! 7700X vs 5700X vs 3700X vs 2700X](https://www.youtube.com/watch?v=pGy3A5-F8_8&t=41s){:target="_blank"}
 
-Tom's Hardware article: https://www.tomshardware.com/news/amd-zen-4-ryzen-7000-release-date-specifications-pricing-benchmarks-all-we-know-specs
+[AMD Ryzen 5 7600X Review & Benchmarks, Gaming Beast!](https://www.youtube.com/watch?v=_WubXd2tXOA&t=1891s){:target="_blank"}
 
+[AMD Zen 4 Ryzen 7000 Specs, Release Date, Benchmarks, Price Listings](https://www.tomshardware.com/news/amd-zen-4-ryzen-7000-release-date-specifications-pricing-benchmarks-all-we-know-specs){:target="_blank"}
