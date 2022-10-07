@@ -10,7 +10,6 @@ discord: ['ecto UK/ES#2667']
 
 # Opening / Changing Advanced Power Options using .BAT files
 
-{. :highlight}
 This could be useful if you want to quickly change settings in your power plan based on what your laptop is doing.
 
 ## Shortcut to open advanced settings
