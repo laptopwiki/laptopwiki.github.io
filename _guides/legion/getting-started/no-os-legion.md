@@ -16,7 +16,7 @@ Basic Guide to setting up a Legion without an OS
 - Create a [bootable Windows USB media](https://www.youtube.com/watch?v=e4JMpOWPLKs){:target="_blank"} (ie. Rufus) and boot choosing the EFI drive on the boot menu pressing F12 (You may need to disable SecureBoot in BIOS)
 - Activate Windows with a key purchased from Microsoft
 - Install Lenovo Vantage from the MS Store or [Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/latest){:target="_blank"} , switch to hybrid mode, restart, search for driver updates and install them. (Legion toolkit is preferred over vantage because of lower resource usage)
-- Install Windows updates, If you choose the manual windows update mode, follow this [guide](/Guides/general/windows-guides/disable-updates.md){:target="_blank"}
+- Install Windows updates, If you choose the manual windows update mode, follow this [guide](/Guides/general/windows-guides/disable-updates/){:target="_blank"}
 - Install [Lenovo Hotkey](https://www.microsoft.com/en-us/p/lenovo-hotkeys/9pcmmnb260tx){:target="_blank"} from the MS Store
 - Install Dolby Vision from the MS Store (if your screen supports it)
   - if the Dolby Vision still doesn’t start, then download the file “PQCONFIG.DV” and paste it in System32/spool/drivers/color
