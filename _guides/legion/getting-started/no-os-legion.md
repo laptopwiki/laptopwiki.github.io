@@ -16,7 +16,7 @@ Basic Guide to setting up a Legion without an OS
 - Create a [bootable Windows USB media](https://www.youtube.com/watch?v=e4JMpOWPLKs){:target="_blank"} (ie. Rufus) and boot choosing the EFI drive on the boot menu pressing F12 (You may need to disable SecureBoot in BIOS)
 - Activate Windows with a key purchased from Microsoft
 - Install Lenovo Vantage from the MS Store or [Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/latest){:target="_blank"} , switch to hybrid mode, restart, search for driver updates and install them. (Legion toolkit is preferred over vantage because of lower resource usage)
-- Install Windows updates, If you choose the manual windows update mode, follow this [guide](https://laptopwiki.eu/index.php/docs/disable-automatic-updates-windows/){:target="_blank"}
+- Install Windows updates, If you choose the manual windows update mode, follow this [guide](/Guides/general/windows-guides/disable-updates.md){:target="_blank"}
 - Install [Lenovo Hotkey](https://www.microsoft.com/en-us/p/lenovo-hotkeys/9pcmmnb260tx){:target="_blank"} from the MS Store
 - Install Dolby Vision from the MS Store (if your screen supports it)
   - if the Dolby Vision still doesn’t start, then download the file “PQCONFIG.DV” and paste it in System32/spool/drivers/color
@@ -35,7 +35,7 @@ Basic Guide to setting up a Legion without an OS
 - Install the [Nahimic app](https://www.microsoft.com/en-us/p/nahimic/9n36ppmp8s23?activetab=pivot:overviewtab){:target="_blank"} for improving the sound
 
 - (Optional) Install the recommended Nvidia driver for your GPU from the Nvidia site, we don't recommend using Geforce Experience due to the issues it causes in many games (check [discord server](https://discord.com/channels/819491422327406592/938382715709968404/998990738308214894){:target="_blank"} for a recommended driver)
-- If your laptop is brand new, you can choose to go through [this checklist](https://new.laptopwiki.eu/guides/general/getting-started/laptop-new/) to check it for issues 
+- If your laptop is brand new, you can choose to go through [this checklist](/guides/general/getting-started/laptop-new/) to check it for issues 
 - Here is the archive with all the Legion 5 Pro drivers that are provided by Lenovo for the models delivered with Windows installed
   - [Legion 5 Pro / Legion 7 (AMD)](https://drive.google.com/file/d/1LKJRfnoEZwiY7F6Pnwy-LJ1sUcDZHEzg/view?usp=sharing){:target="_blank"}
   - [Legion 5i Pro (Intel)](https://drive.google.com/file/d/1zDYmPAPtJv65NMO0AIRitGUFCZZG3GbO/view?usp=sharing){:target="_blank"}
