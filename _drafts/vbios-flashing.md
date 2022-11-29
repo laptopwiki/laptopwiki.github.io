@@ -5,7 +5,7 @@ description: "Detailed Guide on Flashing VBIOS for your Laptop - fixing your GPU
 parent: Performance, Thermal and Fan Management
 grand_parent: General
 contributors: ['Kirakenchin']
-discord: ['Coleh#4297'] , [''] 
+discord: ['Coleh#4297'] , ['aaalbert#1784'] 
 ---
 
 # Necessity of Flashing a VBIOS
