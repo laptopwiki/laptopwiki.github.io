@@ -4,8 +4,8 @@ title: Reflashing GPU
 description: "Re-flashing a soft-bricked Ampere GPU"
 parent: Advanced
 grand_parent: General
-contributors: ['martin4x4']
-discord: ['m164#7024']
+contributors: ['vert7x']
+discord: ['aaalbert#1784']
 ---
 
 # Re-flashing a soft-bricked Ampere GPU
@@ -37,5 +37,3 @@ Open a Command Prompt as Administrator.
 Run **nvflash_patched_ampere -6 "insert original VBIOS name.rom"**
 
 This only works on Nvidia RTX 3000 series mobile GPUs.
-
-Credits: @vert7x
