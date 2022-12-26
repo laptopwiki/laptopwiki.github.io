@@ -16,17 +16,17 @@ Spam **F12** after powering on the laptop, you will be presented with a screen a
 Select your bootable USB and proceed with Windows Setup.
 Press **Next.**
 
-https://cdn.discordapp.com/attachments/840314972918644767/906344226214805504/img_1.png
+![image](https://cdn.discordapp.com/attachments/840314972918644767/906344226214805504/img_1.png)
 
 Press **Repair your computer.**
 
-https://cdn.discordapp.com/attachments/840314972918644767/906344284633059328/img_2.png
+![image](https://cdn.discordapp.com/attachments/840314972918644767/906344284633059328/img_2.png)
 
 Select **Startup Settings** and press **Restart.** 
 After restarting press **F4** to boot into safe mode. 
 If Startup Settings isn't there, select **Command Prompt** and then type **bcdedit /set {default} safeboot minimal** into Command Prompt.
 
-https://cdn.discordapp.com/attachments/840314972918644767/906344391646539776/img_3.jpg
+![image](https://cdn.discordapp.com/attachments/840314972918644767/906344391646539776/img_3.jpg)
 
 Exit Command Prompt and proceed to Windows. 
 Use the attached NVFlash (patched for Ampere mobile) to re-flash your orginial VBIOS. 
