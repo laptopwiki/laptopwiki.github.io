@@ -1,0 +1,41 @@
+---
+layout: wiki
+title: Reflashing GPU
+description: "Re-flashing a soft-bricked Ampere GPU"
+parent: Advanced
+grand_parent: General
+contributors: ['martin4x4']
+discord: ['m164#7024']
+---
+
+# Re-flashing a soft-bricked Ampere GPU
+
+Accidentally bricked your Legion's GPU after flashing a VBIOS? Don't worry, there's a way to make your laptop functional again. 
+A soft-bricked GPU will display a black screen upon boot. To fix this, we will need to boot into safe-mode. 
+Prepare a bootable USB with Windows Installation Media. 
+Spam **F12** after powering on the laptop, you will be presented with a screen asking you to select a boot drive. 
+Select your bootable USB and proceed with Windows Setup.
+Press **Next.**
+
+https://cdn.discordapp.com/attachments/840314972918644767/906344226214805504/img_1.png
+
+Press **Repair your computer.**
+
+https://cdn.discordapp.com/attachments/840314972918644767/906344284633059328/img_2.png
+
+Select **Startup Settings** and press **Restart.** 
+After restarting press **F4** to boot into safe mode. 
+If Startup Settings isn't there, select **Command Prompt** and then type **bcdedit /set {default} safeboot minimal** into Command Prompt.
+
+https://cdn.discordapp.com/attachments/840314972918644767/906344391646539776/img_3.jpg
+
+Exit Command Prompt and proceed to Windows. 
+Use the attached NVFlash (patched for Ampere mobile) to re-flash your orginial VBIOS. 
+This patched version bypasses all Board ID Mismatch errors. 
+Open a Command Prompt as Administrator. 
+**cd..** to the location of your NVFlash folder.
+Run **nvflash_patched_ampere -6 "insert original VBIOS name.rom"**
+
+This only works on Nvidia RTX 3000 series mobile GPUs.
+
+Credits: @vert7x
