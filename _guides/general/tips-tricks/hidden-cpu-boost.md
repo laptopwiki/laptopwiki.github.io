@@ -4,7 +4,7 @@ title: Enable Hidden CPU Boost Mode
 description: "How to enable hidden CPU Boost Mode"
 parent: Tips and Tricks
 grand_parent: General
-contributors: [''] 
+contributors:
 discord: ['mind12#3390'] 
 ---
 
