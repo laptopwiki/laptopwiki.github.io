@@ -2,6 +2,7 @@
 layout: wiki
 title: InsydeH20 Undervolt Unlock
 parent: Advanced
+grand_parent: General
 contributors: ["dglt1","nonkerdoob"]
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: wiki
 title: Advanced
-nav_order: 2
+nav_order: 5
 toc_content: false
+parent: General
 ---
 
 # Advanced
