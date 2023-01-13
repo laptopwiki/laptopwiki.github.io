@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Teardown Guides
+title: Legion Teardown Guides
 description: "Legion Teardown Guides"
 parent: Advanced
 grand_parent: Legion
@@ -8,7 +8,7 @@ contributors: ['nonkerdoob','kirakenchin']
 discord: ['dglt#9870']
 ---
 
-# Official Lenovo teardown guides
+# Official Lenovo Legion teardown guides
 
 ## Gen 7
 
