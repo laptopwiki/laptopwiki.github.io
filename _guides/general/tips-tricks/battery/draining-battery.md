@@ -23,3 +23,13 @@ Discrete GPU is always active even when in Hybrid mode, and as a result, the bat
 ![image](https://media.discordapp.net/attachments/859207621408063498/877790609115590696/unknown.png?width=380&height=300)
 
 ![image](https://images-ext-1.discordapp.net/external/0MxXyAqtnyGELdeUmu3B2DCH7QBFKoTiS6G1QXxZDKI/%3Fpid%3DImgDet%26rs%3D1/https/th.bing.com/th/id/OIP.2qdn2mE14sgwJbwc37OxXQAAAA)
+
+### Legion Toolkit
+- Alternative use Legion toolkit to find out which program is using the DGPU
+- Download [Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit)
+- In the Homepage you can see **Graphics** section. Under the graphics Section check Discrete GPU category. Then press deactivate to unplug programs using the DGPU. Check the picture below for clarification. 
+
+![LegionToolkit](https://cdn.discordapp.com/attachments/713356473123602484/1063535175750918215/image.png)
+*Legion Toolkit*
+
+- Hover over the *i* button to see the list of programs currently use DGPU
