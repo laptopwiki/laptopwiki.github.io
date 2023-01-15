@@ -48,10 +48,10 @@ If this method fails, try Method 2.
 5. Type dir to ensure you are in the right directory. You should see your ``VBIOS.ro``m and ``nvflashxx.exe`` files
 6. Run these commands
 
-#### Backup
+**Backup**
 ```nvflash64.exe -b backup.rom```
 
-#### FLash
+**FLash**
 ```nvflash64.exe -f -6 <VBIOS file name>.rom```
 
 {: .caution}
