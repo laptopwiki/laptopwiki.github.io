@@ -47,7 +47,6 @@ If this method fails, try Method 2.
 4. Open CMD as admin, type in cd ``C:\nvflash\``. You can copy the path from address bar in File Explorer
 5. Type dir to ensure you are in the right directory. You should see your ``VBIOS.ro``m and ``nvflashxx.exe`` files
 6. Run these commands
-
 **Backup**
     ```nvflash64.exe -b backup.rom```
 
