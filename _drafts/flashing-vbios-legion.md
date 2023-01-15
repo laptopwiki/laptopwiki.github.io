@@ -42,20 +42,22 @@ If this method fails, try Method 2.
 ## Method 2: With Nvflash
 1. Download Nvflash from - https://www.techpowerup.com/download/nvidia-nvflash/
 2. Extract nvflash into ``C:\nvflash\``
-  ![image](https://user-images.githubusercontent.com/100846697/210909374-0ce998a5-11cf-4503-84dc-98662aba2ecb.png)
-3. Download VBIOS for your GPU from attachment below
-4. Open CMD as admin, type in cd ``C:\nvflash\``. You can copy the path from address bar in File Explorer
-5. Type dir to ensure you are in the right directory. You should see your ``VBIOS.ro``m and ``nvflashxx.exe`` files
-6. Run these commands
+{: .center}
+![image](https://user-images.githubusercontent.com/100846697/210909374-0ce998a5-11cf-4503-84dc-98662aba2ecb.png)
+4. Download VBIOS for your GPU from attachment below
+5. Open CMD as admin, type in cd ``C:\nvflash\``. You can copy the path from address bar in File Explorer
+6. Type dir to ensure you are in the right directory. You should see your ``VBIOS.ro``m and ``nvflashxx.exe`` files
+7. Run these commands
+
 **Backup**
     ```nvflash64.exe -b backup.rom```
 
-**FLash**
+**Flash**
     ```nvflash64.exe -f -6 <VBIOS file name>.rom```
 
 {: .caution}
 When flashing it might give you two warnings. Say yes to both.
-
+{: .center}
 ![image](https://user-images.githubusercontent.com/100846697/210909387-e38b9d6b-b016-4a2b-9902-273b5f74ac7d.png)
 
 7. Reboot
