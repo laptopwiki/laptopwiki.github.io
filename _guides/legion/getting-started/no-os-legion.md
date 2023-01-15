@@ -5,7 +5,7 @@ description: "Setting up Legion laptops that come without an OS from factory"
 parent: Getting Started
 grand_parent: Legion
 contributors: ['averyspeedybird'] 
-discord: ['ClemFab#0741', 'mind12#3390', 'nibi030#0077', 'Kazmir#7360', 'Kaobalt#0001]
+discord: ['ClemFab#0741', 'mind12#3390', 'nibi030#0077', 'Kazmir#7360', 'Kaobalt#0001']
 ---
 
 # How to set up your no OS Legion
