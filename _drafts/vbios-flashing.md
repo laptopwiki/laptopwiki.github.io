@@ -44,6 +44,7 @@ As a first, format the USB stick to FAT32 format and then copy the contents of t
 *Disable GPU*
 
 - open Windows Command Prompt as Administrator by typing "CMD" in the search bar. Alternatively, Windows 11 users can also use Windows Terminal
+
 {: .center}
 ![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-14.png)
 *Command Prompt*
@@ -51,16 +52,27 @@ As a first, format the USB stick to FAT32 format and then copy the contents of t
 - After opening you want to find that folder at the Root of **C:/** and launch the program. You can follow the commands and adjust the naming accordingly
 
 ```
-cd/```
-Hit Enter
+cd/
 ```
-dir```
+
 Hit Enter
+
 ```
-cd/nvflash64```
+dir
+```
+
+Hit Enter
+
+```
+cd/nvflash64
+```
+
 Hit Enter (Inside folder)
+
 ```
-nvflash64```
+nvflash64
+```
+
 Hit enter((this will run the program called nvflash64.exe in that folder. If you have the program named differently, you will need to type that name instead)
 
 {: .center}
