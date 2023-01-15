@@ -30,7 +30,8 @@ If you do not have the **AU folder**, you will have to create it: Right click on
 - Create final DWORD (32-bit) Value called ``NoAutoUpdate`` and set it’s value data to **1** (1 = Disabling Automatic Updates (_this is by default enabled_))
 
 
-![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-2.png)
+![image](https://cdn.discordapp.com/attachments/713356473123602484/1061680816008212522/image.png)
+![image](https://media.discordapp.net/attachments/713356473123602484/1061681558601334934/image.png)
 
 ### Group Policy Editor
 
@@ -40,9 +41,10 @@ Head towards
 ```
 Computer Configuration –> Administrative Templates –> Windows Components –> Windows Update –> Manage updates offered from Windows Update
 ```
-- Double click on **Select when Preview Builds and Feature Updates are received** set it to **Enabled** and in the box below, where it asks **How many days you would like to postpone an update before your device receives it” type 3**. This will make sure that you will always receive stable updates and not their unstable new version that might contain issues/bugs and so on.
+- Double click on **Select when Preview Builds and Feature Updates are received** set it to **Enabled** and in the box below, where it asks **How many days you would like to postpone an update before your device receives it** type 30. This will make sure that you will always receive stable updates and not their unstable new version that might contain issues/bugs and so on.
 
-![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-7.png)
+![image](https://cdn.discordapp.com/attachments/713356473123602484/1061684993467875328/image.png)
+![image](https://cdn.discordapp.com/attachments/713356473123602484/1061685604229840976/image.png)
 
 - Again in Group Policy Editor, head over to 
 ```
@@ -50,7 +52,7 @@ Computer Configuration –> Administrative Templates –> Windows Components –
 ```
 look for the **Configure Automatic Updates** double click on it and set it to ``Disabled``. This will prevent Windows from downloading updates automatically for you.
 
-![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-10.png)
+![image](https://media.discordapp.net/attachments/713356473123602484/1061686386622738432/image.png)
 
 - For Windows 11 HOME users, following this [guide](https://www.youtube.com/watch?v=7wkgwEhtqdI){:target="_blank"} will help you add the Group Policy Editor to your windows and you will be able to do the above guide just like the Pro users.
 
@@ -70,7 +72,7 @@ Computer Configuration –> Administrative Templates –> Windows Components –
 ```
 look for the **Configure Automatic Updates** double click on it and set it to ``Disabled``. This will prevent Windows from downloading updates automatically for you.
 
-![image](https://laptopwiki.eu/wp-content/uploads/2022/08/image-8.png)
+![image](https://media.discordapp.net/attachments/713356473123602484/1061686386622738432/image.png)
 
 For Windows 10 HOME users, following this [guide](https://www.youtube.com/watch?v=7wkgwEhtqdI) will help you add the Group Policy Editor to your windows and you will be able to do the above guide just like the Pro users.
 
