@@ -49,10 +49,10 @@ If this method fails, try Method 2.
 6. Run these commands
 
 **Backup**
-```nvflash64.exe -b backup.rom```
+    ```nvflash64.exe -b backup.rom```
 
 **FLash**
-```nvflash64.exe -f -6 <VBIOS file name>.rom```
+    ```nvflash64.exe -f -6 <VBIOS file name>.rom```
 
 {: .caution}
 When flashing it might give you two warnings. Say yes to both.
@@ -66,7 +66,8 @@ When flashing it might give you two warnings. Say yes to both.
 
 For Gen 6 users, you need custom mode to change cTGP and make use of VBIOS. It will have stock behavior in other modes. 
 
-### 3060
+**3060**
+
 Lenovo Package made for Legion 5i Gen 7. Can be installed in Gen 6.
 Lenovo Link - https://download.lenovo.com/consumer/mobiles/legion5_15iah7h_rtx3060_140w-sign.zip
 Mirror - https://cdn.discordapp.com/attachments/958324999532445716/1030666746224451614/legion5_15iah7h_rtx3060_140w-sign.zip
@@ -77,14 +78,16 @@ Mirror - https://cdn.discordapp.com/attachments/958324999532445716/1030667013259
 
 ROM File - https://cdn.discordapp.com/attachments/958324999532445716/1021114009967140975/GA106.rom
 
-### 3070
+**3070**
+
 Lenovo Package made for Legion 5i Pro Gen 7. Can be installed on Gen 6.
 Lenovo Link - https://download.lenovo.com/consumer/mobiles/legion5pro_16iah7h.exe
 Mirror Link - https://cdn.discordapp.com/attachments/958324999532445716/1021110233709432922/legion5pro_16iah7h.exe
 
 ROM FIle - https://cdn.discordapp.com/attachments/958324999532445716/1021111712545513472/249142.rom
 
-### 2060 Legion 5 85w to 115w
+**2060 Legion 5 85w to 115w**
+
 Warning this VBIOS will not work on Y540 and Legion 7i 2020
 ROM File and nvflash - https://cdn.discordapp.com/attachments/768238263525703702/819684558265516072/nvflash-legion5-100w-115w-new.zip
 
