@@ -25,7 +25,6 @@ Download it from here [Aida64](https://aida64.com/)  ([Direct Link](https://down
 
 After downloading, install and open it. Click Yes if you get a warning while opening the stability test window.
 
-![](https://cdn.discordapp.com/attachments/852051010506850335/859743498751836180/unknown.png)
 ![](https://cdn.discordapp.com/attachments/852051010506850335/922548041888722994/unknown.png)
 
 ---
