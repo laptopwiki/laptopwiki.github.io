@@ -5,6 +5,7 @@ description: "Laptop Stress Test Guide"
 parent: Getting Started
 grand_parent: General
 contributors: ["basmal","nonkerdoob"]
+permalink: /stresstest
 ---
 
 # Laptop Stress Test Guide
