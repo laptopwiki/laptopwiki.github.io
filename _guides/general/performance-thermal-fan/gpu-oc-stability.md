@@ -66,13 +66,23 @@ Some example values to help
 ![image](https://cdn.discordapp.com/attachments/832668125098803261/1009573060623470692/unknown.png)
 *3060 Undervolt Curve*
 
-## 3070 / 3070ti Laptop
+## 3070 / 3070ti Laptop (Undervolt)
 
 - Open MSI afterburner settings turn on everything in the ``General`` and ``Compatibility`` sections
 - set core clock to lowest and apply (around 100 - 150 is recommended)
 - press ``ctrl + F`` to open voltage-Frequency table
 - drag the point at 750mV to 1600MHz and apply (gpu clock will settle at 1590 or 1605)
-- the table should now be a sharp increase with a plateau starting at 750mV onwards
+- the table should now be a sharp increase with a plateau starting at 750mV onward
+
+### Overclock (can combine with UV)
+
+- Open voltage table and stress test in windowed mode
+- At 750mV, increase the point in 15MHz increments, waiting a minute to test stability, until the screen goes black or the stress test crashes and record the MHz that caused the crash. reset table and repeat for 775 and 800 (optional to proceed up to 850)
+- Apply the values together in the table at 1 increment below the crash clock speed
+e.g. 750mV: 1650MHz > 1635MHz
+
+{: .tip}
+Individual GPU cores will have varying limits so don't use someone else’s values for your own GPU
 
 ### Alternate Simple Overclock
 
@@ -85,7 +95,7 @@ e.g. 800mV: 1710MHz
 ![image](https://cdn.discordapp.com/attachments/713356473123602484/1009798514789843034/unknown.png)
 *3070/ti Undervolt Curve*
 
-## 3080 / 3080ti Laptop
+## 3080 / 3080ti Laptop (Undervolt)
 
 - Open MSI Afterburner
 - Start with +140 on core clock and +500 on memory clock
